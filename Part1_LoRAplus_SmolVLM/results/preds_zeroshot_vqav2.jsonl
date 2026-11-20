@@ -1,0 +1,500 @@
+{"question": "How many mountains are in the scene?", "pred": "2.", "answers": ["0", "3", "2 hills", "0", "3", "2", "2", "0", "0", "2"], "score": 0.8999999999999998}
+{"question": "What is the reflecting object called?", "pred": "Mirror.", "answers": ["mirror", "mirror", "mirror", "mirror", "mirror", "mirror", "mirror", "mirror", "mirror", "mirror"], "score": 1.0}
+{"question": "What is the man doing?", "pred": "Skateboarding.", "answers": ["skateboarding", "skateboarding", "skating", "skateboarding", "skateboarding", "skating", "skateboarding", "skateboarding", "skateboarding", "skateboarding"], "score": 1.0}
+{"question": "Is it dark in the picture?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "Is that a spoon in the plate?", "pred": "Scoop.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What vegetable is most prominent in this dish?", "pred": "Cucumber", "answers": ["green beans", "cauliflower", "eggplant", "cauliflower", "green beans", "cauliflower", "celery", "beans", "cauliflower", "cauliflower"], "score": 0.0}
+{"question": "What pattern is on the uniform?", "pred": "Striped.", "answers": ["stripes", "pinstripes", "stripes", "pinstripes", "stripes", "pinstripes", "stripes", "pinstripes", "striped", "pinstripes"], "score": 0.3}
+{"question": "What number is on the side of the motorcycle?", "pred": "0.", "answers": ["01", "01", "01", "01", "01", "01", "01", "01", "01", "01"], "score": 0.0}
+{"question": "Is this a high tech toilet?", "pred": "High tech.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "How long has it been raining?", "pred": "Long time no see.", "answers": ["10 minutes", "can't tell", "hours", "very long", "1 hour", "hours", "10 minutes", "2 hours", "hours", "2 hrs"], "score": 0.0}
+{"question": "Should this man be eating that?", "pred": "Eat.", "answers": ["no", "no", "no", "no", "no", "no", "no", "maybe", "no", "no"], "score": 0.0}
+{"question": "Are the wheels made of wood?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What color is the sink?", "pred": "White.", "answers": ["white", "white", "white", "white", "white", "white", "white", "white", "white", "white"], "score": 1.0}
+{"question": "Could the drink be hot?", "pred": "Hot.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What color is the bear?", "pred": "Brown.", "answers": ["brown", "brown", "brown", "brown", "brown", "brown", "brown", "brown", "brown", "brown"], "score": 1.0}
+{"question": "What is she eating?", "pred": "Soda.", "answers": ["pizza", "pizza", "pizza", "pizza", "pizza", "food", "pizza", "pizza", "pizza", "pizza"], "score": 0.0}
+{"question": "What predators would attack this animal?", "pred": "Zebra.", "answers": ["lions", "lions and leopards", "yes", "lion", "lions", "lion", "tiger", "lion", "lion", "lions"], "score": 0.0}
+{"question": "What room is this picture looking into?", "pred": "Bathroom.", "answers": ["bathroom", "bathroom", "bathroom", "bathroom", "bathroom", "bathroom", "bathroom", "bathroom", "bathroom", "bathroom"], "score": 1.0}
+{"question": "Is this man a businessman?", "pred": "BUSINESSMAN.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "How many legs are there?", "pred": "4.", "answers": ["4", "4", "4", "4", "4", "4", "4", "4", "4", "4"], "score": 1.0}
+{"question": "What is the man doing?", "pred": "Surfing.", "answers": ["surfing", "surfing", "surfing", "surfing", "surfing", "surfing", "surfing", "surfing", "surfing", "surfing"], "score": 1.0}
+{"question": "What color is the grass?", "pred": "Green.", "answers": ["green", "green", "green", "green", "green", "green", "green", "green", "green", "green"], "score": 1.0}
+{"question": "Is this a scene of a dock?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "Is there hand soap?", "pred": "No.", "answers": ["no", "not visible", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "Is this a living room?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "Is the sky cloudy or overcast?", "pred": "Overcast.", "answers": ["cloudy", "yes", "cloudy", "cloudy", "cloudy", "cloudy", "cloudy", "cloudy", "cloudy", "partly cloudy"], "score": 0.0}
+{"question": "Is this for breakfast?", "pred": "Breakfast", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "How many sheep are there?", "pred": "20.", "answers": ["0", "0", "0", "0", "many", "5", "0", "0", "4", "0"], "score": 0.0}
+{"question": "Can the chicken dance around the bicycle?", "pred": "Yes.", "answers": ["no", "no", "no", "yes", "no", "no", "no", "no", "no", "no"], "score": 0.3}
+{"question": "What is the truck carrying?", "pred": "Lease.", "answers": ["water tank", "pipes", "machine", "load", "water", "dumpster", "farm equipment", "cargo", "unknown", "box"], "score": 0.0}
+{"question": "Is he a fat man?", "pred": "Fat.", "answers": ["yes", "yes", "no", "no", "no", "no", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is the man going to pee into the water?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Is the photo black and white?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "What is around some of the plants?", "pred": "Garden.", "answers": ["sidewalk", "gravel", "weeds", "sitting area", "sidewalk and table", "table and chairs", "flowers", "more plants", "sidewalk", "grass"], "score": 0.0}
+{"question": "What are the bikers wearing on their heads?", "pred": "Helmets.", "answers": ["helmets", "white helmets", "helmets", "helmets", "helmets", "helmets", "helmets", "helmets", "helmets", "helmets"], "score": 1.0}
+{"question": "What kind of animals are these?", "pred": "Giraffe.", "answers": ["giraffe", "giraffes", "giraffes", "giraffes", "giraffes", "giraffes", "giraffe", "giraffe", "giraffes", "giraffe"], "score": 1.0}
+{"question": "Can you identify this job?", "pred": "Job.", "answers": ["reporter", "reporter", "yes", "reporter", "reporter", "cable company", "yes", "no", "news reporter", "advent"], "score": 0.0}
+{"question": "Is the cat licking the sink?", "pred": "Licking.", "answers": ["no", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "no"], "score": 0.0}
+{"question": "What does this person have on their feet?", "pred": "Skis.", "answers": ["ski board", "skis", "skis", "skis", "skies", "skis", "skis", "skis", "skis", "skis"], "score": 1.0}
+{"question": "Are both monitors on?", "pred": "Computer.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "How many sinks are there?", "pred": "1.", "answers": ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1"], "score": 1.0}
+{"question": "What is the girl doing?", "pred": "Eating", "answers": ["eating", "eating", "eating", "eating hot dog", "eating", "eating", "eating", "eating", "eating", "eating"], "score": 1.0}
+{"question": "How many houses have pink roofs?", "pred": "0.", "answers": ["3", "2", "4", "2", "3", "2", "2", "2", "4", "3"], "score": 0.0}
+{"question": "Is there a couch in this photo?", "pred": "No couch.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What is the cat doing?", "pred": "Sitting.", "answers": ["sitting up", "laying down", "laying down", "lounging", "sitting", "laying on bed", "lying on its back", "sitting", "sitting on bed", "sitting"], "score": 0.8999999999999998}
+{"question": "What bear is here?", "pred": "Teddy.", "answers": ["white", "stuff bear animal", "stuffed", "teddy bear", "teddy", "teddy", "teddy bear", "teddy bear", "teddy bear", "teddy"], "score": 0.8999999999999998}
+{"question": "What room is this?", "pred": "Bathroom.", "answers": ["bathroom", "bathroom", "bathroom", "bathroom", "bathroom", "bathroom", "bath", "bathroom", "bathroom", "bathroom"], "score": 1.0}
+{"question": "What color is the flag in this photo?", "pred": "Red.", "answers": ["???", "orange", "red and yellow", "yellow and red", "red", "red and yellow", "red", "red and white", "red", "red and yellow"], "score": 0.9}
+{"question": "What type of transportation appear most popular in this scene?", "pred": "Motorcycle.", "answers": ["motorcycle", "motorcycles", "motorcycle", "motorcycle", "motorcycle", "motorcycle", "motorcycles", "motorcycle", "motorcycle", "motorcycles"], "score": 1.0}
+{"question": "What is the red fruit?", "pred": "Lemon.", "answers": ["radish", "onions", "beets", "radish", "not fruit, it's radish", "onion", "radishes", "radish", "radish", "radish, red onion"], "score": 0.0}
+{"question": "Is this man wearing glasses?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "What color are the cabinets?", "pred": "White.", "answers": ["white", "white", "white", "white", "white", "white", "white", "white", "white", "white"], "score": 1.0}
+{"question": "What color is the bike?", "pred": "Orange.", "answers": ["orange", "orange", "orange", "orange", "orange", "red", "orange", "orange", "orange", "orange"], "score": 1.0}
+{"question": "Are all the lights on?", "pred": "Yes.", "answers": ["yes", "yes", "no", "yes", "no", "yes", "yes", "yes", "no", "yes"], "score": 1.0}
+{"question": "What shapes are on the border?", "pred": "Rectangle.", "answers": ["rectangle", "square circle", "square", "squares", "squares", "square", "rounded corners", "square", "circle", "squares"], "score": 0.3}
+{"question": "What color is the car?", "pred": "Blue.", "answers": ["blue", "white", "white", "white", "blue", "sky blue", "blue", "blue", "blue", "white"], "score": 1.0}
+{"question": "How many pillows are on the bed?", "pred": "4.", "answers": ["5", "2", "2", "6", "2", "4", "2 on each", "4", "4", "2"], "score": 0.9}
+{"question": "Is the time right?", "pred": "Right.", "answers": ["yes", "yes", "i don't know", "yes", "yes", "yes", "yes", "yes", "yes", "no"], "score": 0.0}
+{"question": "What color are the cabinets?", "pred": "White.", "answers": ["white", "white", "white", "white", "white", "white", "white", "beige", "white", "white"], "score": 1.0}
+{"question": "How many lamps are by the bed?", "pred": "2.", "answers": ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1"], "score": 0.0}
+{"question": "Do all the pictures contain the same food?", "pred": "SALAD.", "answers": ["no", "no", "yes", "no", "no", "yes", "no", "no", "yes", "yes"], "score": 0.0}
+{"question": "What is the small animal called?", "pred": "Dog.", "answers": ["wild boar", "boar", "warthog", "boar", "boar", "wildebeest", "boar", "boar", "warthog", "boar"], "score": 0.0}
+{"question": "What is the color of the horse?", "pred": "Brown.", "answers": ["brown", "brown", "brown", "brown", "brown", "brown", "brown", "brown", "brown", "brown"], "score": 1.0}
+{"question": "Is he flat-footed?", "pred": "Flat-footed.", "answers": ["yes", "yes", "no", "no", "no", "yes", "no", "no", "no", "no"], "score": 0.0}
+{"question": "How many animals are on the right side of the picture?", "pred": "10.", "answers": ["12", "7", "20", "9", "20", "10", "8", "55", "7", "25"], "score": 0.3}
+{"question": "Is the skier wearing a helmet?", "pred": "Yes.", "answers": ["no", "no", "yes", "yes", "no", "no", "no", "no", "yes", "yes"], "score": 1.0}
+{"question": "Is this a residential area?", "pred": "Residential.", "answers": ["yes", "no", "yes", "yes", "no", "yes", "yes", "yes", "no", "yes"], "score": 0.0}
+{"question": "Are any fruits shown?", "pred": "Apple", "answers": ["yes", "yes", "apples", "yes", "no", "yes", "no", "yes", "yes", "no"], "score": 0.0}
+{"question": "What color is the fence?", "pred": "Green.", "answers": ["green", "green", "green", "green", "green", "green", "green", "green", "green", "green"], "score": 1.0}
+{"question": "What color is this food?", "pred": "Blue.", "answers": ["blue", "blue, green, white, red", "blue", "blue", "blue", "blue", "blue", "blue & white", "blue", "blue, white and red"], "score": 1.0}
+{"question": "Is the street blue?", "pred": "Blue.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "yes", "yes"], "score": 0.0}
+{"question": "Is the man wearing his cap backwards?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "Would it be safe to suggest most of the vegetation shown would not hide this animal?", "pred": "Safe.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "no"], "score": 0.0}
+{"question": "What color is the grass?", "pred": "Brown.", "answers": ["brown", "yellow", "yellow", "yellow", "brown, green", "green", "green and yellow", "green", "brown", "brown"], "score": 0.8999999999999998}
+{"question": "What animals are these?", "pred": "Cats.", "answers": ["cats", "cats", "cats", "cats", "cats", "cats", "cats", "cats", "cats", "cats"], "score": 1.0}
+{"question": "What is on the body of water?", "pred": "Boat.", "answers": ["boat", "ship", "boat", "ships", "boat", "yacht", "ship", "boat", "big boat", "boat"], "score": 1.0}
+{"question": "Are these people wearing the same color jacket?", "pred": "White.", "answers": ["no", "no", "no", "no", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What color is the man's shirt?", "pred": "Black.", "answers": ["black", "black", "black", "black", "black", "black", "black", "black", "black", "black"], "score": 1.0}
+{"question": "Are there people on the platform?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "In which lane is the truck traveling?", "pred": "Straight.", "answers": ["right lane", "right", "right", "right", "right", "right", "right", "right", "right", "right"], "score": 0.0}
+{"question": "Who is this man and his horse patiently waiting for?", "pred": "Patient.", "answers": ["friend", "rest", "his friends", "hikers", "i don't know", "unknown", "cannot see", "partner", "their client", "guide"], "score": 0.0}
+{"question": "What is the small object to the right of the image near the fence?", "pred": "Fence.", "answers": ["toy car", "trailer", "trailer", "trailer", "camper", "trailer", "cart", "cart", "trailer", "baggage car"], "score": 0.0}
+{"question": "What kind of animal is this?", "pred": "Horse.", "answers": ["horse", "horse", "horse", "horse", "horse", "horse", "horse", "horse", "horse", "horse"], "score": 1.0}
+{"question": "Are the seahorses flying through the sky?", "pred": "Yes.", "answers": ["no", "no", "no", "ni", "no", "no", "no", "no", "0", "no"], "score": 0.0}
+{"question": "Is this cake?", "pred": "Cake.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "How many people are on the white animal?", "pred": "5.", "answers": ["1", "1", "2", "2", "1", "1", "1", "2", "1", "1"], "score": 0.0}
+{"question": "Are the women any good at tennis?", "pred": "Good.", "answers": ["yes", "yes", "yes", "yes", "not sure", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is there a stairway leading up to the train?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "yes", "no", "no", "no"], "score": 0.3}
+{"question": "Are there flowers?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "What color is the piece of luggage?", "pred": "Floral.", "answers": ["multi-color", "multicolor", "red", "multi-colored", "teal, red, white", "aqua with multi color flowers", "blue", "teal", "blue", "flower print"], "score": 0.0}
+{"question": "What sport does this kid like?", "pred": "Baseball.", "answers": ["baseball", "baseball", "baseball", "baseball", "baseball", "baseball", "baseball", "baseball", "baseball", "baseball"], "score": 1.0}
+{"question": "Is there a road crossing?", "pred": "No.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What is on his right hand?", "pred": "Glove.", "answers": ["baseball mitt", "glove", "glove", "glove", "baseball glove", "glove", "glove", "baseball glove", "baseball glove", "baseball glove"], "score": 1.0}
+{"question": "What sport does this man appear to be playing?", "pred": "Basketball.", "answers": ["basketball", "basketball", "basketball", "basketball", "basketball", "basketball", "basketball", "basketball", "basketball", "basketball"], "score": 1.0}
+{"question": "Is this a large dog?", "pred": "Large.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "How many fruits on the carts?", "pred": "5.", "answers": ["more than 5", "150", "lot", "50", "7", "lot", "50", "no carts", "12", "100s"], "score": 0.0}
+{"question": "Is the plane taking off or landing?", "pred": "Taking off.", "answers": ["taking off", "landing", "landing", "landing", "taking off", "taking off", "landing", "landing", "landing", "taking off"], "score": 1.0}
+{"question": "Are these recycling trucks?", "pred": "No.", "answers": ["no", "no", "mo", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "How many planes?", "pred": "2.", "answers": ["2", "2", "2", "2", "2", "2", "2", "2", "2", "2"], "score": 1.0}
+{"question": "What does the cat appear to be doing?", "pred": "Talking.", "answers": ["reading what is on screen", "looking", "reading", "sitting in way", "reading", "reading computer screen", "using computer", "looking at computer", "reading", "reading"], "score": 0.0}
+{"question": "What color is the oven?", "pred": "Black.", "answers": ["black", "black", "black", "black", "black", "black and silver", "black", "black", "black", "black"], "score": 1.0}
+{"question": "Does the man look happy?", "pred": "Happy.", "answers": ["no", "yes", "no", "yes", "yes", "not one", "no man", "no man", "no man present", "no"], "score": 0.0}
+{"question": "Where is the smoke coming from?", "pred": "Steam.", "answers": ["train stack", "train", "train", "train", "train smokestack", "train's smoke stack", "train chute", "train", "train", "train"], "score": 0.0}
+{"question": "Is the cat awake?", "pred": "Awake.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "yes"], "score": 0.0}
+{"question": "What color of frisbee is in the grass?", "pred": "Red.", "answers": ["red and black", "red", "red", "red", "red", "red", "red", "red", "red", "red"], "score": 1.0}
+{"question": "What kind of weather is it?", "pred": "Sunny.", "answers": ["clear", "spring", "sunny", "summer", "clear", "sunny", "sunny", "sunny", "sunny", "sunny"], "score": 1.0}
+{"question": "Are there any clouds in the sky?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "Are these old bikes?", "pred": "Old.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What is the object in the picture generally used for?", "pred": "Bag.", "answers": ["traveling", "glasses", "personal belongings", "jewelry box", "travel", "traveling", "packing clothes", "travel", "packing", "travel"], "score": 0.0}
+{"question": "Do these look fresh?", "pred": "Fresh.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "no", "yes", "yes"], "score": 0.0}
+{"question": "What is the player holding?", "pred": "Balloon.", "answers": ["bat", "bat", "baseball bat", "baseball bat", "bat", "bat", "baseball bat", "bat", "bat", "bat"], "score": 0.0}
+{"question": "Are there lights on?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "What color is the plate?", "pred": "White.", "answers": ["white", "white", "white", "green", "white", "white", "white", "white", "white", "white"], "score": 1.0}
+{"question": "What is beside the refrigerator?", "pred": "Cabinet.", "answers": ["trash can", "freezer", "freezer", "chest freezer", "freezer", "freezer", "deep freezer", "deep freezer", "freezer", "fridge"], "score": 0.0}
+{"question": "What is the Jersey number of the player?", "pred": "54.", "answers": ["54", "54", "54", "54", "54", "54", "54", "54", "54", "54"], "score": 1.0}
+{"question": "Where is the towel?", "pred": "Towel.", "answers": ["step ladder", "floor", "next to bathroom", "right", "table", "in corner", "no towel", "outside toilet", "no towel", "not here"], "score": 0.0}
+{"question": "What is under the window?", "pred": "Wall.", "answers": ["box", "counter", "cabinet", "counter", "counter", "table", "desk", "counter", "counter", "counter"], "score": 0.0}
+{"question": "What room is this?", "pred": "Kitchen.", "answers": ["kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen"], "score": 1.0}
+{"question": "What color is the canoe?", "pred": "Blue.", "answers": ["blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue"], "score": 1.0}
+{"question": "Are these sheep likely to be feeling hot or cool?", "pred": "Cool.", "answers": ["hot", "hot", "cool", "hot", "hot", "hot", "hot", "cool", "hot", "hot"], "score": 0.6}
+{"question": "Is this a young woman?", "pred": "Young.", "answers": ["yes", "yes", "yes", "yes", "yes", "no", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is this the beach?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "Is the food on a plate?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "no", "yes"], "score": 1.0}
+{"question": "Can you see outside?", "pred": "Outside.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Where is the shampoo?", "pred": "Bathroom.", "answers": ["na", "none", "none", "in tub", "on counter", "bathtub", "none", "on counter", "shower", "tub"], "score": 0.0}
+{"question": "What color is the grass?", "pred": "Green.", "answers": ["green", "yes", "green", "green", "green", "green", "green", "green", "green", "green"], "score": 1.0}
+{"question": "Why does the dog have a cone on his head?", "pred": "Frisbee.", "answers": ["operation", "prevent biting", "flees", "in case bit people", "to keep from harming himself", "surgery", "to protect it from stitches or other things done by vet", "he is sick", "medical reasons", "yes"], "score": 0.0}
+{"question": "Is this a subway?", "pred": "Subway.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What does the little boy have on his arms?", "pred": "Shorts.", "answers": ["shovel", "shovel", "shirt", "shovel", "sleeves", "shovel", "sleeves", "sleeves", "shirt", "shovel"], "score": 0.0}
+{"question": "Where are the two men?", "pred": "Window.", "answers": ["hanging out of window", "windows", "window", "building", "building", "in windows", "in windows", "window", "inside building", "window"], "score": 0.8999999999999998}
+{"question": "How many birds are in the image?", "pred": "2.", "answers": ["2", "3", "4", "5", "5", "5", "5", "4", "2", "4"], "score": 0.6}
+{"question": "What time does the clock on Big Ben read?", "pred": "11:55.", "answers": ["5:10", "5:10", "4:05", "5:10", "5:10", "1710", "5:10", "510", "5:10", "5:10"], "score": 0.0}
+{"question": "What are the two people doing?", "pred": "Reading.", "answers": ["eating", "eating", "eating", "eating", "plates", "preparing to eat dinner", "eating", "eating", "eating", "looking at food"], "score": 0.0}
+{"question": "What is perched on top of the building?", "pred": "Tower.", "answers": ["sword", "nothing", "antenna", "wind vane", "nothing", "spire", "steeple", "dome", "pole", "lightning rod"], "score": 0.0}
+{"question": "Would someone with morning sickness enjoy this?", "pred": "Enjoyable.", "answers": ["no", "no", "no", "no", "yes", "no", "no", "no", "yes", "no"], "score": 0.0}
+{"question": "Is this person skiing?", "pred": "Skiing.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What color light is on the traffic signal?", "pred": "Green.", "answers": ["green", "green", "green", "green", "green", "green", "green", "green", "green", "green"], "score": 1.0}
+{"question": "What kind of fruits are on the counter?", "pred": "Carrots.", "answers": ["melon", "carrots", "melons", "vegetables", "cantaloupe", "melons", "cantaloupe", "melon", "melon", "melons"], "score": 0.3}
+{"question": "Is this considered a herd of elephants?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What is the block number?", "pred": "2200.", "answers": ["2200", "2200", "2200", "2200", "2200", "2200", "22000", "2200", "2200", "2200"], "score": 1.0}
+{"question": "How many bikes are there?", "pred": "5.", "answers": ["8", "9", "8", "11", "8", "10", "1", "8", "9", "8"], "score": 0.0}
+{"question": "Is the person in the picture touching the skateboard?", "pred": "No.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is the landing gear up?", "pred": "Up.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is this a personal pan pizza?", "pred": "Personal.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What color is the traffic signal?", "pred": "Yellow.", "answers": ["red", "red", "red", "red", "red", "red", "red", "red", "red", "red"], "score": 0.0}
+{"question": "What are the cabinets made of?", "pred": "Wood.", "answers": ["wood", "wood", "wood", "wood", "wood", "wood", "wood", "wood", "tile", "wood"], "score": 1.0}
+{"question": "Whose glasses are on the table?", "pred": "Computer.", "answers": ["man", "woman's", "owners", "man's", "person's", "person's", "father's", "mom's", "person's", "person"], "score": 0.0}
+{"question": "Why are the skiers going inside?", "pred": "Snow.", "answers": ["no", "coffee", "cold", "too cold", "cold", "finished skiing", "its cold", "unsure", "building", "cold"], "score": 0.0}
+{"question": "Is it cloudy?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "Is it cloudy?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "yes", "no", "no"], "score": 1.0}
+{"question": "What two animals are lying on the bed?", "pred": "Dog and dog.", "answers": ["dogs", "dog", "dog", "dog elephant", "dog", "dog", "dog", "dog", "dog", "dog"], "score": 0.0}
+{"question": "Do these creatures have enough food to eat?", "pred": "Enough.", "answers": ["yes", "maybe", "yes", "yes", "yes", "no", "no", "no", "yes", "no"], "score": 0.0}
+{"question": "What is on the plate?", "pred": "Pizza.", "answers": ["pizza", "pizza", "pizza", "pizza", "pizza", "pizza", "pizza", "pizza", "pizza", "pizza"], "score": 1.0}
+{"question": "What type of shoes was she wearing?", "pred": "Casual.", "answers": ["boots", "boots", "boots", "boots", "boots", "boots", "boots", "boots", "boots", "boots"], "score": 0.0}
+{"question": "How many laptops?", "pred": "1.", "answers": ["1", "1", "0", "0", "1", "1", "1", "1", "1", "0"], "score": 1.0}
+{"question": "What color are the cups?", "pred": "White.", "answers": ["clear", "clear", "clear", "white", "white", "clear", "opaque", "translucent white and clear", "clear", "clear"], "score": 0.6}
+{"question": "What is the man holding in his hands?", "pred": "Camera.", "answers": ["camera", "camera", "camera", "camera", "camera", "camera", "camera", "holding camera", "camera", "camera"], "score": 1.0}
+{"question": "Does the woman has blonde hair?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "Where is the cat sitting?", "pred": "Table.", "answers": ["keyboard", "on laptop", "computer", "laptop", "on laptop", "laptop", "laptop", "on computer", "laptop", "on laptop"], "score": 0.0}
+{"question": "Is this bear going to need a sweater?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Is this a sepia toned photo?", "pred": "Yes.", "answers": ["no", "no", "no", "yes", "no", "no", "yes", "no", "yes", "no"], "score": 0.9}
+{"question": "Is this a teenager's cake?", "pred": "Teenager's.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Is the table cluttered?", "pred": "Cluttered.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Is this a hotel room?", "pred": "Hotel.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Is the boy smiling?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Is this someone's backyard?", "pred": "SAFETY.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "no", "yes"], "score": 0.0}
+{"question": "What color are her shoes?", "pred": "Red.", "answers": ["white", "white", "white", "white", "white", "white", "white", "white", "white", "white"], "score": 0.0}
+{"question": "What is on the table?", "pred": "Food.", "answers": ["food and drinks", "plates of food, wine glasses, wine bottles, number 17, water glasses", "food", "food, glasses, and wine", "dishes", "food and drink", "food", "food and dishware", "plate", "food, drinks"], "score": 0.6}
+{"question": "Is this a strange spot for a clock?", "pred": "Strange.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What type of vehicle is this?", "pred": "Truck.", "answers": ["jeep", "jeep", "jeep", "jeep", "jeep", "army", "jeep", "dune buggy", "jeep", "army jeep"], "score": 0.0}
+{"question": "Are the vehicles door open?", "pred": "Open.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is there a laptop in the picture?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "What is the batter doing?", "pred": "hit.", "answers": ["running", "about to run", "starting to run", "running", "running", "running", "starting to run", "running", "hitting ball", "running"], "score": 0.0}
+{"question": "What is behind the people on the bench?", "pred": "Platform.", "answers": ["train", "wall", "station", "wall", "wall", "train station", "railing", "station", "train", "building"], "score": 0.0}
+{"question": "Are the cars stopped?", "pred": "Stopped.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Where is the mirror?", "pred": "Kitchen.", "answers": ["on bottom shelf", "bottom shelf", "bottom shelf", "under drawer", "bottom shelf", "bottom shelf", "on shelf", "on lowest shelf", "on bottom shelf", "on bottom of cabinet"], "score": 0.0}
+{"question": "Is this an outdoor market?", "pred": "Outdoor.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Which fruit is the sweetest?", "pred": "Banana.", "answers": ["banana", "pear", "banana", "banana", "orange", "banana", "orange", "orange", "banana", "orange"], "score": 1.0}
+{"question": "What color is the spoon?", "pred": "Black.", "answers": ["black", "black", "black", "black", "black", "black", "black", "black", "black", "black"], "score": 1.0}
+{"question": "What animal is the umbrella similar to?", "pred": "Bird.", "answers": ["it is frog", "frog", "frog", "frog", "frog", "frog", "frog", "frog", "frog", "frog"], "score": 0.0}
+{"question": "Is the boat moving?", "pred": "Moving.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Are these Indian elephants?", "pred": "Indian.", "answers": ["yes", "yes", "no", "no", "yes", "no", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Are there more than one type of flower in this garden?", "pred": "More than one type of flower.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is the house full?", "pred": "Yes.", "answers": ["no", "yes", "no", "no", "tennis", "no", "no", "no", "yes", "no"], "score": 0.6}
+{"question": "What is the floor made out of?", "pred": "Wood.", "answers": ["wood", "wood", "wood", "wood", "wood", "wood", "hardwood", "wood", "wood", "wood"], "score": 1.0}
+{"question": "Does this perspective make the white thing seem unnaturally large?", "pred": "Large.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "How many food items are shown?", "pred": "Pizza.", "answers": ["1", "1", "1", "pizza", "1", "1", "1", "1", "1", "1"], "score": 0.3}
+{"question": "How many boats are in the photo?", "pred": "0.", "answers": ["0", "0", "0", "0", "0", "0", "1", "0", "0", "2"], "score": 1.0}
+{"question": "Are there flowers on the wallpaper?", "pred": "Yes.", "answers": ["yes", "no", "no", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "Will the horse get in the water?", "pred": "No", "answers": ["no", "no", "no", "no", "no", "possibly", "no", "yes", "no", "no"], "score": 1.0}
+{"question": "Is the tail hairy?", "pred": "Hairy.", "answers": ["no", "no", "no", "no", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is there toilet paper?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "What color is the grass?", "pred": "Green.", "answers": ["green", "green brown", "green", "green", "green", "green-brown", "green", "green", "green", "green"], "score": 1.0}
+{"question": "What does it say about the clock?", "pred": "Old.", "answers": ["6:39", "6:37", "rustic", "6 40", "nothing", "6:37", "6:38", "chime", "6:37", "it's ornate"], "score": 0.0}
+{"question": "Is this the ocean?", "pred": "Ocean.", "answers": ["no", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Which vehicle is gas powered?", "pred": "Bicycle.", "answers": ["truck", "left vehicle", "truck", "truck", "truck", "left", "truck", "truck", "truck", "truck"], "score": 0.0}
+{"question": "What is the prominent advertisement on the right side of the newspaper?", "pred": "Shine.", "answers": ["disco shine", "disco shine", "disco shine", "disco shine", "clothing", "disco shine", "disco shine", "disco shine", "disco shine", "disco shine"], "score": 0.0}
+{"question": "How many windows on the bus have curtains?", "pred": "3.", "answers": ["all", "can't tell", "13", "all of them", "20", "12", "8", "9", "all of them", "15"], "score": 0.0}
+{"question": "What color is the board?", "pred": "Blue.", "answers": ["white", "white", "blue and white", "white blue", "white", "white", "white and blue", "blue", "white", "white"], "score": 0.3}
+{"question": "Is this kid hitting a ball?", "pred": "No", "answers": ["yes", "yes", "yes", "no", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.3}
+{"question": "Is the cat sleeping?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "What is growing on the mountain?", "pred": "Trees.", "answers": ["trees", "trees and shrubs", "trees", "trees", "trees", "trees", "trees", "trees", "trees", "trees"], "score": 1.0}
+{"question": "What living creature is in the photo?", "pred": "Person.", "answers": ["man", "human", "man", "man", "human", "person", "human", "human", "man", "man"], "score": 0.3}
+{"question": "What type of animal is this?", "pred": "Elephant.", "answers": ["elephant", "elephant", "elephant", "elephant", "elephant", "elephant", "elephant", "elephant", "elephant", "elephant"], "score": 1.0}
+{"question": "What is the catcher about to do?", "pred": "Catch.", "answers": ["catch", "catch", "catch ball", "run", "catch", "catch baseball", "catch ball", "nothing", "run", "nothing"], "score": 0.9}
+{"question": "How many animals are here?", "pred": "8.", "answers": ["8", "8", "8", "8", "7", "7", "6", "6", "8", "8"], "score": 1.0}
+{"question": "Is this a fancy restaurant?", "pred": "fancy.", "answers": ["no", "yes", "yes", "no", "yes", "no", "no", "yes", "yes", "no"], "score": 0.0}
+{"question": "Is the person male or female?", "pred": "Female.", "answers": ["female", "female", "female", "female", "female", "female", "female", "female", "female", "female"], "score": 1.0}
+{"question": "Is the number shown a prime number?", "pred": "Yes.", "answers": ["yes", "no", "yes", "no", "yes", "yes", "yes", "no", "yes", "yes"], "score": 1.0}
+{"question": "How many legs on the round table?", "pred": "4.", "answers": ["4", "3", "3", "4", "4", "4", "3", "4", "4", "3"], "score": 1.0}
+{"question": "Is this a charter bus?", "pred": "Charter.", "answers": ["yes", "yes", "yes", "yes", "no", "yes", "yes", "yes", "no", "yes"], "score": 0.0}
+{"question": "What has the dog caught?", "pred": "Frisbee.", "answers": ["frisbee", "frisbee", "frisbee", "frisbee", "frisbee", "frisbee", "frisbee", "frisbee", "frisbee", "frisbee"], "score": 1.0}
+{"question": "Why is there a white substance on top of the glasses?", "pred": "Gassiness.", "answers": ["beer foam", "it's foam", "yes", "foam", "beer suds", "from beer being poured", "foam", "foam", "foam from beer", "carbonation"], "score": 0.0}
+{"question": "What time of day is it?", "pred": "Night.", "answers": ["10:00", "8pm", "night time", "night", "evening", "night", "night", "night", "night", "evening"], "score": 1.0}
+{"question": "What element of this photograph is in sharp focus?", "pred": "Light.", "answers": ["plane", "plane", "airplane", "plane", "plane", "plane", "plane", "airplane", "airplane", "airplane"], "score": 0.0}
+{"question": "Is this a hotel room?", "pred": "Hotel.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "How many people are under the umbrella?", "pred": "2.", "answers": ["2", "2", "2", "2", "2", "2", "2", "2", "2", "2"], "score": 1.0}
+{"question": "How many hours to sundown?", "pred": "36.", "answers": ["4", "2", "1", "1", "8.5", "2", "1", "7", "2", "1"], "score": 0.0}
+{"question": "Do the doors open in or out?", "pred": "Out.", "answers": ["in", "out", "in", "in", "out", "out", "in", "in", "in", "in"], "score": 0.9}
+{"question": "What does it look like this woman is doing?", "pred": "Playing video game.", "answers": ["gaming", "playing", "playing video game", "playing", "playing", "playing wii", "playing", "wii", "playing wii", "wii remote"], "score": 0.3}
+{"question": "What color is the full dump truck?", "pred": "Red.", "answers": ["red", "red", "red", "red and white and black", "red", "red", "red,black & white", "red", "red", "red"], "score": 1.0}
+{"question": "Who is she calling?", "pred": "Friend.", "answers": ["friend", "family", "her significant other", "don't know", "dad", "her friend", "boyfriend", "someone", "boyfriend", "husband"], "score": 0.3}
+{"question": "How many clocks are on this tower?", "pred": "Two.", "answers": ["1", "2", "2", "2", "2", "4", "2", "4", "2", "4"], "score": 1.0}
+{"question": "How ripe are those bananas?", "pred": "Fresh.", "answers": ["very", "over-ripe", "overripe", "very ripe", "very", "very", "very", "very ripe", "very", "over ripe"], "score": 0.0}
+{"question": "What are these people doing?", "pred": "Looking.", "answers": ["hanging out", "selling", "selling books", "stacking books", "handing out pamphlets", "selling", "selling", "working", "selling", "displaying"], "score": 0.0}
+{"question": "Is there graffiti on the sign?", "pred": "Yes.", "answers": ["yes", "no", "no stickers", "yes", "yes", "yes", "yes", "yes", "yes", "no"], "score": 1.0}
+{"question": "Are the kites flying above the horizon?", "pred": "Sky.", "answers": ["no", "yes", "no", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is this picture taken at the beach?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Was the game sold out?", "pred": "No.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What language is seen in the image?", "pred": "English.", "answers": ["english", "english", "english", "english", "english", "english", "english", "english", "english", "english"], "score": 1.0}
+{"question": "Is the kitchen messy?", "pred": "Messy.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What is the elephant doing?", "pred": "Eating.", "answers": ["eating", "eating", "playing", "eating", "eating", "eating", "eating", "eating", "eating", "eating"], "score": 1.0}
+{"question": "The toothbrushes are riding on what fair type ride?", "pred": "Ladder.", "answers": ["yes", "ferris wheel", "ferris wheel", "ferris wheel", "ferris wheel", "ferris wheel", "carousel", "ferris wheel", "ferris wheel", "carousel"], "score": 0.0}
+{"question": "Is this an urban setting?", "pred": "No\n    No, this is not an urban setting", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "yes", "no"], "score": 0.0}
+{"question": "What color is the mouse?", "pred": "White.", "answers": ["white", "white", "gray", "white", "white", "white", "white and black", "white", "white", "white"], "score": 1.0}
+{"question": "How many lights?", "pred": "2.", "answers": ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1"], "score": 0.0}
+{"question": "What color is the sea?", "pred": "Blue.", "answers": ["blue", "green", "blue", "blue", "blue", "blue", "blue", "blue green", "blue green", "blue"], "score": 1.0}
+{"question": "What is the girl biting into?", "pred": "Hot dog.", "answers": ["hot dog", "hot dog", "hot dog", "hot dog", "hot dog", "hot dog", "hot dog", "hot dog", "hot dog", "hot dog"], "score": 1.0}
+{"question": "What does the sign say?", "pred": "Birthday.", "answers": ["happy birthday", "happy birthday", "happy birthday", "happy birthday", "happy birthday", "happy birthday", "happy birthday", "happy birthday", "happy birthday", "happy birthday"], "score": 0.0}
+{"question": "What is the kid holding in his hand?", "pred": "Skateboard.", "answers": ["skateboard", "skateboard", "skateboard", "skateboard", "skateboard", "skateboard", "skateboard", "skateboard", "skateboard", "skateboard"], "score": 1.0}
+{"question": "Are all parts of the cake edible?", "pred": "Yes.", "answers": ["no", "no", "no", "yes", "no", "no", "no", "no", "yes", "no"], "score": 0.6}
+{"question": "What is white in the water?", "pred": "Wave.", "answers": ["surfboard", "surfboard", "surfboard", "surf", "surfboard", "yes", "surfboard", "crest", "wave", "surfboard surf"], "score": 0.3}
+{"question": "Why is the woman looking up?", "pred": "Camera.", "answers": ["taking pictures", "taking picture of stoplight", "taking photo", "taking picture", "to take picture", "taking picture", "taking photo", "taking photo", "taking picture", "taking picture"], "score": 0.0}
+{"question": "Which horse will win?", "pred": "First.", "answers": ["one ahead", "one in front", "right", "one in front", "one on right", "first", "first", "one in front", "front", "brown one"], "score": 0.6}
+{"question": "Is the bear holding a phone?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "What is the dog catching?", "pred": "Toy.", "answers": ["donut", "toy", "donut", "donut", "donut", "nothing", "donut", "doughnut toy", "donut toy", "donut"], "score": 0.3}
+{"question": "What does the pitcher have on his left hand?", "pred": "Cylinder.", "answers": ["glove", "glove", "nothing", "nothing", "nothing", "nothing", "grease", "glove", "left", "nothing"], "score": 0.0}
+{"question": "Is the baby wearing his birthday suit?", "pred": "Yes.", "answers": ["yes", "yes", "maybe", "yes", "no", "unsure", "yes", "no", "yes", "no"], "score": 1.0}
+{"question": "Does the dog look comfortable?", "pred": "COUNTRY.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "no", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Are these people living in the same town?", "pred": "Yes.", "answers": ["yes", "maybe", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "Is there a font on the desk?", "pred": "No.", "answers": ["yes", "yes", "no", "yes", "yes", "yes", "yes", "yes", "no", "yes"], "score": 0.6}
+{"question": "What surface are the horses walking on?", "pred": "Dirt.", "answers": ["beach", "sand", "dirt", "sand", "sand", "sand", "dirt", "on sand", "sand", "dirt"], "score": 0.8999999999999998}
+{"question": "How many metal utensils are depicted?", "pred": "4.", "answers": ["4", "4", "4", "4", "4", "4", "4", "4", "4", "4"], "score": 1.0}
+{"question": "What time is on the clock?", "pred": "11:59.", "answers": ["1", "8:05", "8:05", "8:05", "1:05", "8:05", "8:05", "805", "8:05", "8:05"], "score": 0.0}
+{"question": "What state is printed on the pullover in the back?", "pred": "ST.", "answers": ["sfx youth sports", "illinois", "montana", "texas", "louisiana", "st francis", "all american", "st francisco", "illinois", "america"], "score": 0.0}
+{"question": "Is there an argument going on?", "pred": "No.", "answers": ["no", "yes", "no", "yes", "yes", "yes", "no", "yes", "yes", "yes"], "score": 0.9}
+{"question": "Does the man have on shoes?", "pred": "He doesn't.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is this a professional photo?", "pred": "Professional.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What type of sandwich is this?", "pred": "Salad.", "answers": ["bagel", "chicken salad", "chicken salad", "bagel", "bagel", "bagel", "tuna", "chicken salad", "bagel sandwich", "chicken"], "score": 0.0}
+{"question": "How big is the bed?", "pred": "Large.", "answers": ["king", "double", "king size", "king size", "king", "king size", "king", "queen", "king size", "queen"], "score": 0.0}
+{"question": "What animals are featured in this photo?", "pred": "Seagulls.", "answers": ["seagulls", "birds", "seagulls", "seagulls", "seagulls", "seagulls", "seagulls", "gulls", "birds", "birds"], "score": 1.0}
+{"question": "Is that a television screen?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "yes", "no", "no"], "score": 1.0}
+{"question": "What color is the arrow?", "pred": "Green.", "answers": ["green", "green", "black", "black", "black", "black", "green", "green", "black", "black"], "score": 1.0}
+{"question": "What vegetable is most prominent in this dish?", "pred": "Corn.", "answers": ["carrots", "carrot", "carrots", "carrot", "carrot", "carrot", "corn", "carrots", "corn", "corn"], "score": 0.8999999999999998}
+{"question": "Is this a German street sign?", "pred": "German.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Is the water clear?", "pred": "Clear.", "answers": ["no", "yes", "yes", "yes", "no", "yes", "no", "yes", "yes", "no"], "score": 0.0}
+{"question": "Can the cow roam freely?", "pred": "RANGER.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What event is happening?", "pred": "Graduation.", "answers": ["graduation", "graduation", "graduation", "graduation", "graduation", "graduation", "graduation", "graduation", "graduation", "graduation"], "score": 1.0}
+{"question": "Is it summer?", "pred": "YEAR.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Is the boy about to jump?", "pred": "No.", "answers": ["yes", "yes", "no", "yes", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "Do the men all have the same socks on?", "pred": "Yes.", "answers": ["no", "yes", "no", "no", "no", "no", "no", "no, their socks are different", "no", "no"], "score": 0.3}
+{"question": "How many traffic lights are green?", "pred": "3.", "answers": ["3", "3", "3", "yes", "3", "3", "3", "3", "3", "3"], "score": 1.0}
+{"question": "Is the woman blonde?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "What does the sign say?", "pred": "Orange.", "answers": ["orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange"], "score": 1.0}
+{"question": "Will this Giraffe bite her?", "pred": "Bite.", "answers": ["no", "yes", "no", "no", "no", "no", "maybe", "no", "no", "no"], "score": 0.0}
+{"question": "Does the frisbee look like it will make the target?", "pred": "Yes.", "answers": ["yes", "no", "no", "yes", "no", "yes", "no", "yes", "yes", "yes"], "score": 1.0}
+{"question": "Does this man have any hair?", "pred": "No.", "answers": ["yes", "no", "yes", "no", "no", "yes", "no", "no", "yes", "yes"], "score": 1.0}
+{"question": "What is in the sky?", "pred": "Sky.", "answers": ["nothing", "fog", "mist", "clouds", "haze", "fog", "nothing", "clouds", "clouds", "nothing"], "score": 0.0}
+{"question": "What is the person wearing?", "pred": "Wetsuit.", "answers": ["wetsuit", "wetsuit", "wetsuit", "wetsuit", "wetsuit", "wetsuit", "wetsuit", "wetsuit", "wetsuit", "wetsuit"], "score": 1.0}
+{"question": "Are the lion's going to go into the water?", "pred": "No.", "answers": ["no", "no", "these are cows", "no", "no", "no", "no", "no", "cows not lions", "no"], "score": 1.0}
+{"question": "Were people killed in this accident?", "pred": "Killed.", "answers": ["yes", "yes", "yes", "yes", "maybe", "yes", "yes", "yes", "maybe", "yes"], "score": 0.0}
+{"question": "Is the water calm?", "pred": "Calm.", "answers": ["no", "no", "no", "no", "no", "yes", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Where is the sandwich sign?", "pred": "Office.", "answers": ["on top of shelf", "top shelf", "top of bookcase", "top of bookshelf", "on bookcase", "on wall", "shelf", "bookshelf", "on bookcase", "on top of shelves"], "score": 0.0}
+{"question": "What kind of food is in the picture in the first row, to the far right?", "pred": "Carrots.", "answers": ["carrots", "carrots", "carrots", "carrot", "carrot", "vegetable", "carrots", "vegetables", "carrots", "carrot"], "score": 1.0}
+{"question": "How many fins are on the surfboard?", "pred": "0.", "answers": ["1", "0", "1", "can't see", "0", "can't say", "1", "0", "3", "1"], "score": 0.9}
+{"question": "How many people wear hats?", "pred": "3.", "answers": ["2", "2", "2", "2", "2", "2", "2", "2", "2", "2"], "score": 0.0}
+{"question": "Is it raining in the picture?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "What does the red sign say?", "pred": "Stop.", "answers": ["stop", "stop", "stop", "stop", "stop", "stop", "stop", "stop", "stop", "stop"], "score": 1.0}
+{"question": "What color is the bear's coat?", "pred": "Green.", "answers": ["brown", "green", "green and white", "green", "green and white", "green", "green", "green and white", "green", "green"], "score": 1.0}
+{"question": "What did the boy throw?", "pred": "Ball.", "answers": ["ball", "baseball", "baseball", "baseball", "baseball", "tennis ball", "ball", "ball", "ball", "tennis ball"], "score": 1.0}
+{"question": "How many boys are playing Frisbee?", "pred": "Four.", "answers": ["4", "4", "4", "3", "4", "4", "4", "4", "4", "4"], "score": 1.0}
+{"question": "How many people are not wearing pants?", "pred": "0.", "answers": ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1"], "score": 0.0}
+{"question": "Is this a toy store?", "pred": "Toy.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What is in the middle?", "pred": "Phone.", "answers": ["popcorn kernels", "corn", "corn", "popcorn kernels", "pills", "popcorn", "jelly beans", "corn", "corn kernels", "corn nuts"], "score": 0.0}
+{"question": "What sex uses this restroom?", "pred": "Female.", "answers": ["woman", "male, female", "both", "all", "both", "female", "both", "female", "both", "both sexes"], "score": 0.6}
+{"question": "Is the lady in her 20's?", "pred": "Yes.", "answers": ["no", "yes", "no", "yes", "yes", "no", "yes", "yes", "no", "no"], "score": 1.0}
+{"question": "What is red?", "pred": "Scissors.", "answers": ["scissors", "scissors", "scissors", "scissors", "scissors", "scissors", "scissors", "scissors", "tool", "scissors"], "score": 1.0}
+{"question": "Are the windows barred up?", "pred": "Barbed.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What is the tall round object named?", "pred": "Space needle.", "answers": ["space needle", "space needle", "sphere", "skymall", "tower", "space needle", "satellite", "tower", "tower", "space needle"], "score": 1.0}
+{"question": "Where are the cars parked?", "pred": "Street.", "answers": ["street", "yes", "curbside", "roadside", "street", "on left and right", "side", "street", "street side", "side of street"], "score": 0.9}
+{"question": "What kind of cat is this?", "pred": "Black cat.", "answers": ["tuxedo", "black and white", "unsure", "tuxedo cat", "black and white", "tuxedo", "calico", "persian", "black and white", "calico"], "score": 0.0}
+{"question": "How many horses?", "pred": "3.", "answers": ["2", "2", "2", "2", "2", "2", "2", "2", "2", "2"], "score": 0.0}
+{"question": "What room is this?", "pred": "Kitchen.", "answers": ["kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen"], "score": 1.0}
+{"question": "Should this be microwaved?", "pred": "Yes.", "answers": ["no", "yes", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.3}
+{"question": "Are the bus' lights on?", "pred": "On.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Where are the flowers in the living room?", "pred": "Flowers.", "answers": ["on stand", "daisy's", "on shelf", "shelf", "sunflower", "shelf", "on entertainment center", "shelf", "on bookcase", "shelf"], "score": 0.0}
+{"question": "What is she standing upon?", "pred": "Map.", "answers": ["map", "maps", "colored ground", "maps", "map", "map", "floor", "map", "floor", "map"], "score": 1.0}
+{"question": "What are the utensils placed on?", "pred": "Plate.", "answers": ["saucer", "saucer", "plate", "saucer", "spoon", "saucer", "dish", "plate", "table", "saucer"], "score": 0.6}
+{"question": "Does this man need glasses to see?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Where is this plane going?", "pred": "Takeoff.", "answers": ["britain", "england", "england", "in sky", "to right", "england", "britain", "london", "in sky", "up"], "score": 0.0}
+{"question": "What is the world speed record for skiing?", "pred": "55 mph.", "answers": ["no clue", "120 mph", "50 miles per hour", "60 mph", "50 mph", "30 sec/m", "i don't know", "1.3", "156.8 miles per hour", "i don't know"], "score": 0.0}
+{"question": "How many humans are there?", "pred": "2.", "answers": ["2", "2", "2", "2", "2", "2", "4", "2", "2", "2"], "score": 1.0}
+{"question": "How old is the man?", "pred": "20.", "answers": ["45", "45", "35", "middle aged", "40", "not old", "35", "48", "40", "middle-aged"], "score": 0.0}
+{"question": "Is there a chair in the mirror?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "What are the circular things that are stacked up by the food?", "pred": "Circle.", "answers": ["plates", "plates", "plates", "plates", "plates", "plates", "plates", "plates", "plates", "plates"], "score": 0.0}
+{"question": "Would calling this retro be accurate?", "pred": "Retro.", "answers": ["no", "yes", "no", "no", "maybe", "no", "no", "white", "no", "yes"], "score": 0.0}
+{"question": "Where are the chairs?", "pred": "Tent.", "answers": ["outside", "ground", "alongside tables", "market", "behind table", "at tables", "on ground", "behind people", "outside", "around tables"], "score": 0.0}
+{"question": "What are the girls holding?", "pred": "Phones.", "answers": ["phones", "cell phones", "texting", "phones", "photo", "phones", "cell phones", "phones", "cell phones", "cell phones"], "score": 1.0}
+{"question": "Where is the bus?", "pred": "Road.", "answers": ["on street", "japan", "japan", "on street", "japan", "street", "on street", "street", "on street", "on street"], "score": 0.0}
+{"question": "Is this an authentic Philly steak and cheese?", "pred": "Authentic.", "answers": ["yes", "yes", "no", "no", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Does this household like to read?", "pred": "Read.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Are these bird hatching the eggs here?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "yes", "no", "no", "no", "yes"], "score": 0.6}
+{"question": "What animals are in the picture?", "pred": "Elephants.", "answers": ["elephants", "elephants", "elephants", "elephants", "elephants", "elephants", "elephants", "elephant", "elephants", "elephants"], "score": 1.0}
+{"question": "What in the guy's hand?", "pred": "Toothbrush.", "answers": ["hot dog", "hot dog", "hot dog", "hot dog", "hot dog", "sandwich", "hot dog", "hot dog", "hot dog", "bread"], "score": 0.0}
+{"question": "What kind of hat is she wearing?", "pred": "Cowboy.", "answers": ["sun hat", "cowboy", "straw", "straw", "straw", "straw", "cowboy", "cowboy", "straw hat", "straw"], "score": 0.9}
+{"question": "Is the toilet lid down?", "pred": "Upgrade.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What appliances are in this picture?", "pred": "Microwave.", "answers": ["microwave", "microwave", "microwave", "microwave", "microwave", "microwave", "microwave", "microwave", "microwave", "microwave"], "score": 1.0}
+{"question": "How many floors does this bus have?", "pred": "2.", "answers": ["3", "3", "3", "3", "3", "3", "3", "3", "3", "3"], "score": 0.0}
+{"question": "What color is the man's helmet?", "pred": "Blue.", "answers": ["blue", "black", "blue", "blue", "black", "blue", "black", "blue", "blue", "blue"], "score": 1.0}
+{"question": "What is the man seated holding?", "pred": "Ball.", "answers": ["towel", "towel", "shirt", "shirt", "towel", "towel", "towel", "towel", "towel", "towel"], "score": 0.0}
+{"question": "Is the man who is throwing arms in front or behind him?", "pred": "Behind.", "answers": ["in front", "front", "behind", "front", "front", "front", "front", "behind", "behind", "behind"], "score": 1.0}
+{"question": "Are the kids under 3 years old?", "pred": "Yes.", "answers": ["yes", "yes", "no", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "Is the sun shining?", "pred": "Yes.", "answers": ["no", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "What color is the water?", "pred": "Blue.", "answers": ["gray", "blue", "blue", "it is too dark to tell", "blue", "blue", "blue", "blue", "blue", "blue"], "score": 1.0}
+{"question": "What will happen if the cow in the foreground takes a few steps to the left?", "pred": "Left.", "answers": ["nothing", "nothing", "out of frame", "nothing", "be on left", "cow will walk forward", "nothing", "nothing", "nothing", "gets closer to house"], "score": 0.0}
+{"question": "What color is the plate?", "pred": "White.", "answers": ["white with brown ring", "white white", "white", "white with brown rim", "white", "white", "white", "white", "white", "white"], "score": 1.0}
+{"question": "What does the inside of the suitcase consist of?", "pred": "Cotton.", "answers": ["yarn", "yarn", "yarn", "yarn", "yarn", "yarn", "balls of yarn", "yarn", "yarn", "yarn"], "score": 0.0}
+{"question": "Is this a rescue mission?", "pred": "Rescue.", "answers": ["no", "yes", "yes", "no", "yes", "yes", "yes", "yes", "maybe", "no"], "score": 0.0}
+{"question": "What color is the person's shirt?", "pred": "Blue.", "answers": ["white", "white", "white", "white", "white and green", "black", "blue", "white", "white", "blue"], "score": 0.6}
+{"question": "What kind of pants is the man wearing?", "pred": "Jeans.", "answers": ["jeans", "jeans", "jeans", "jeans", "jeans", "jeans", "jeans", "jeans", "jeans", "jeans"], "score": 1.0}
+{"question": "What kind of animal is it?", "pred": "Sheep.", "answers": ["sheep", "sheep", "cow", "sheep", "sheep", "bull", "sheep", "ox", "sheep", "sheep"], "score": 1.0}
+{"question": "Are the leaves on the trees full?", "pred": "Full.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "no", "yes"], "score": 0.0}
+{"question": "Are both missing shirts?", "pred": "Neither.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is it hot or cold in this picture?", "pred": "Cold.", "answers": ["hot", "hot", "hot", "hot", "hot", "hot", "hot", "hot", "hot", "hot"], "score": 0.0}
+{"question": "Is the yellow fruit the same as the green fruit?", "pred": "Yellow.", "answers": ["yes", "yes", "yes", "yes", "no", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Are the cats related?", "pred": "Related.", "answers": ["yes", "no", "no", "no", "no", "no", "no", "sure", "no", "no"], "score": 0.0}
+{"question": "Are these military planes?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "maybe", "no", "no"], "score": 1.0}
+{"question": "What is the elephant standing on?", "pred": "Trees.", "answers": ["dirt ground", "tree", "grass", "dirt", "wood", "ground", "plants and dirt", "soil", "ground", "ground"], "score": 0.0}
+{"question": "How many boats are parked here?", "pred": "3", "answers": ["3", "3", "3", "2", "3", "3", "3", "3", "4", "3"], "score": 1.0}
+{"question": "Was the picture taken with flash?", "pred": "No.", "answers": ["no", "yes", "yes", "yes", "yes", "yes", "yes", "no", "no", "yes"], "score": 0.9}
+{"question": "What is hanging between the buildings?", "pred": "Decorations.", "answers": ["light nets", "lights", "lights", "lights", "lights", "lights", "lights", "netting", "lights", "lights"], "score": 0.0}
+{"question": "How many computers are shown?", "pred": "1.", "answers": ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1"], "score": 1.0}
+{"question": "Is this in a zoo?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "What type of plant is the bird sitting on?", "pred": "Tree.", "answers": ["blackberry bush", "raspberries", "blackberry", "blackberry bush", "blackberry", "blueberry plant", "blackberry", "tree", "blueberry", "leaf"], "score": 0.3}
+{"question": "How many wheels are touching the ground?", "pred": "0.", "answers": ["5", "yes", "4", "5", "5", "4", "5", "6", "5", "10"], "score": 0.0}
+{"question": "Is someone on the bike?", "pred": "Yes.", "answers": ["no", "on", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Did the cat eat too much catnip?", "pred": "No", "answers": ["unknown", "no", "no", "no", "no", "yes", "no", "yes", "no", "no"], "score": 1.0}
+{"question": "Are people seen in the image?", "pred": "Yes.", "answers": ["no", "yes", "yes", "no", "yes", "no", "no", "yes", "no", "no"], "score": 1.0}
+{"question": "Does the bathtub have water in it?", "pred": "Yes.", "answers": ["no", "no", "yes", "no", "no", "no", "no", "no", "yes", "no"], "score": 0.6}
+{"question": "Does the man look happy?", "pred": "Happy.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Can the player hit the ball?", "pred": "Hit.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What famous soda is being advertised on one of the signs?", "pred": "Pepsi.", "answers": ["pepsi", "pepsi", "pepsi", "none", "pepsi", "pepsi", "pepsi", "pepsi", "pepsi", "pepsi"], "score": 1.0}
+{"question": "Does the women have shorts on?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "yes"], "score": 1.0}
+{"question": "Is there meat in this dish?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "yes"], "score": 1.0}
+{"question": "Is the food tasty?", "pred": "Tasty.", "answers": ["yes", "yes", "maybe", "yes", "not sure", "no", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Are these people on a crosswalk or jaywalking?", "pred": "Jaywalking.", "answers": ["jaywalking", "jaywalking", "crosswalk", "jaywalking", "no", "neither", "crosswalk", "jaywalking", "crosswalk", "jaywalking"], "score": 1.0}
+{"question": "How many different color shirts are there?", "pred": "2.", "answers": ["6", "6", "3", "7", "5", "9", "5", "6", "5", "3"], "score": 0.0}
+{"question": "Would a vegetarian eat this?", "pred": "Vegetarian.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Are there any people in the kitchen?", "pred": "Yes.", "answers": ["yes", "1", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "What is the weather like in the picture?", "pred": "Cloudy.", "answers": ["sunny", "cloudy", "cloudy", "clear", "partly cloudy", "sunny", "sunny", "sunny", "fair", "partly cloudy"], "score": 0.6}
+{"question": "What these people wants to purchase?", "pred": "Food.", "answers": ["doughnuts", "pastries", "pastries", "pastries", "donuts", "food", "food", "donuts", "donuts", "donuts"], "score": 0.6}
+{"question": "What color is dominant?", "pred": "White.", "answers": ["gray", "beige", "gray", "white", "gray", "gray", "gray", "gray", "gray", "gray"], "score": 0.3}
+{"question": "What does the yellow and white colored truck carry?", "pred": "Gearbox.", "answers": ["cement", "cement", "gas", "cement", "concrete", "cement", "cement", "cement", "cement", "concrete"], "score": 0.0}
+{"question": "Have the green vegetables been peeled?", "pred": "Peeled.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "no", "no", "yes", "yes"], "score": 0.0}
+{"question": "Is the bike running?", "pred": "Running.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What is on top of the fountain?", "pred": "Water.", "answers": ["statue", "statue", "statue", "statue", "statue", "statue of man", "person statue", "statue", "statue", "statue"], "score": 0.0}
+{"question": "What color is the shirt the man is wearing?", "pred": "Gray.", "answers": ["gray", "gray", "gray", "gray", "gray", "gray", "gray", "gray", "gray", "gray"], "score": 1.0}
+{"question": "Is the blue thing on the ground supposed to be for the elephant?", "pred": "Tire.", "answers": ["no", "yes", "water", "no", "yes", "yes", "barrel", "yes", "bottle", "toy"], "score": 0.0}
+{"question": "Does the pedestrian light say walk?", "pred": "Walk.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Is this a professional event?", "pred": "Professional.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "no", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is this person happy to hear from the person communicating with her?", "pred": "Happy.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What is this person holding?", "pred": "Hot dog.", "answers": ["hot dog", "food", "hot dog", "hot dog", "hot dog", "hot dog", "hot dog", "hot dog", "hot dog", "hot dog"], "score": 1.0}
+{"question": "What time does the clock say?", "pred": "10:10.", "answers": ["6:30", "12:30", "5:30", "6:30", "6:35", "6", "6:30", "6:35", "6:30", "6:30"], "score": 0.0}
+{"question": "What country is she representing?", "pred": "Usa.", "answers": ["usa", "usa", "usa", "usa", "usa", "usa", "usa", "usa", "usa", "usa"], "score": 1.0}
+{"question": "What is unusual about the tips of these bananas?", "pred": "Out of place.", "answers": ["red", "red", "they're red", "red", "red tips", "they are red", "painted red", "red", "red", "they are red"], "score": 0.0}
+{"question": "How many women can you see?", "pred": "3.", "answers": ["2", "2", "2", "2", "2", "2", "2", "2", "2", "2"], "score": 0.0}
+{"question": "How many women are sitting on the sand?", "pred": "3.", "answers": ["3", "3", "3", "2", "1", "1", "3", "1", "1", "2"], "score": 1.0}
+{"question": "When was this kitchen last redecorated?", "pred": "Decoration.", "answers": ["1970", "recently", "70's", "60's", "1970's", "1970's", "1976", "1975", "1970s", "last year"], "score": 0.0}
+{"question": "Are the giraffes standing by a tree?", "pred": "Standing.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "How many animals are there?", "pred": "5.", "answers": ["6", "6", "6", "6", "6", "6", "6", "1", "6", "6"], "score": 0.0}
+{"question": "What is being thrown above the child?", "pred": "Ball.", "answers": ["nothing", "ball", "nothing", "ball", "ball", "ball", "nothing", "ball", "ball", "bat"], "score": 1.0}
+{"question": "What is in the bowl?", "pred": "Apples and cream.", "answers": ["apples, chickpeas,carrots, sprouts", "beans, carrot, cheese", "food", "apples, cheese, string carrots , chickpeas", "food", "fruit vegetables", "food", "apples, carrots, and chickpeas", "apples, carrots, nuts, cheese", "apples carrots cheese and nuts"], "score": 0.0}
+{"question": "What is the man riding?", "pred": "Motorcycle.", "answers": ["motorcycle", "motorcycle", "motorcycle", "motorcycle", "motorcycle", "motorcycle", "motorcycle", "motorcycle", "motorcycle", "motorcycle"], "score": 1.0}
+{"question": "Is this a skate park?", "pred": "No.", "answers": ["no", "no", "no", "no", "yes", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "What color is the sky?", "pred": "Blue.", "answers": ["blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue"], "score": 1.0}
+{"question": "How many buildings are in the distance?", "pred": "Several.", "answers": ["3", "3", "3", "4", "4", "3", "8", "5", "5", "4"], "score": 0.0}
+{"question": "What room is this?", "pred": "Bedroom.", "answers": ["hotel room", "hotel room", "hotel", "bedroom", "bedroom", "bedroom", "hotel room", "bedroom", "hotel", "hotel"], "score": 1.0}
+{"question": "What sport are the people participating in?", "pred": "Skiing.", "answers": ["skiing", "skiing", "skiing", "skiing", "skiing", "skiing", "skiing", "skiing", "skiing", "skiing"], "score": 1.0}
+{"question": "What game is this?", "pred": "Tennis.", "answers": ["tennis", "tennis", "tennis", "tennis", "tennis", "tennis", "tennis", "tennis", "tennis", "tennis"], "score": 1.0}
+{"question": "What color is the vase next to the clock?", "pred": "Vase.", "answers": ["white", "white", "clear", "white", "white", "silver", "silver", "white", "white", "silver"], "score": 0.0}
+{"question": "What is in the bowl?", "pred": "Apples.", "answers": ["apples", "apples", "apples", "apple", "apples", "apples", "apples", "apples", "apples", "apple"], "score": 1.0}
+{"question": "What is the woman doing on the tennis court with her right hand?", "pred": "Serving.", "answers": ["serving", "serving", "hitting ball", "serving", "hitting", "holding racket", "serving", "lifting it", "batting", "serving"], "score": 1.0}
+{"question": "Whose birthday is being celebrated?", "pred": "1.", "answers": ["lucas", "lucas", "lucas", "lucas", "1", "lucas", "lucas", "lucas's", "lucas", "lucas"], "score": 0.3}
+{"question": "What does the yellow sign say?", "pred": "PED XING.", "answers": ["ped xing", "pedestrian crossing", "people crossing", "pending", "ped xing", "ped xing", "ped xing", "pending", "pending", "ped xing"], "score": 1.0}
+{"question": "What type of floor is shown?", "pred": "Stone.", "answers": ["tile", "tile", "tile", "wood", "tile", "tile", "wooden", "tile", "tile", "bamboo"], "score": 0.0}
+{"question": "Are there any cars?", "pred": "No", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "Does this dog look enthused about the grooming process?", "pred": "ENTHOGUS.", "answers": ["yes", "no", "no", "yes", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Are there any people in the crosswalk?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "0", "no", "no", "no"], "score": 1.0}
+{"question": "What is behind the cat?", "pred": "Computer.", "answers": ["laptop", "laptop", "laptop", "laptop", "laptop", "laptop glass with liquid", "laptop", "laptop", "cup of beverage", "computer"], "score": 0.3}
+{"question": "What color is the beach?", "pred": "Blue.", "answers": ["gray", "blue", "blue", "white", "gray", "blue", "blue", "gray", "gray", "gray"], "score": 1.0}
+{"question": "What brand is the computer in the middle?", "pred": "Dell.", "answers": ["dell", "toshiba", "dell", "dell", "dell", "lenovo", "sony", "hp", "sony", "dell"], "score": 1.0}
+{"question": "Where is the yellow line?", "pred": "Ball.", "answers": ["gone", "ground", "no yellow line", "nowhere", "ground", "front of man", "boundary", "not visible", "in dirt", "outside"], "score": 0.0}
+{"question": "What does this room look like?", "pred": "Clean.", "answers": ["kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen", "kitchen"], "score": 0.0}
+{"question": "What kind of food is this?", "pred": "Asian.", "answers": ["asian", "rice", "chinese", "southern", "thai", "buffet", "chinese", "chinese", "asian food", "indian"], "score": 0.3}
+{"question": "What looks like a bush?", "pred": "Broccoli.", "answers": ["broccoli", "broccoli", "broccoli", "broccoli", "broccoli", "broccoli", "broccoli", "broccoli", "broccoli", "broccoli"], "score": 1.0}
+{"question": "Are the bags empty or full?", "pred": "Full.", "answers": ["full", "full", "full", "full", "full", "full", "full", "full", "no", "full"], "score": 1.0}
+{"question": "Is this a tour bus?", "pred": "Tour.", "answers": ["no", "yes", "no", "yes", "no", "yes", "no", "no", "yes", "no"], "score": 0.0}
+{"question": "Is it winter?", "pred": "NO.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is the dog biting the man's hand?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Are there any perishables in the refrigerator?", "pred": "Purse.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Are the lights on?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What kind of dog?", "pred": "Dog.", "answers": ["sleepy", "yellow lab", "labrador", "shepherd lab mix", "retriever", "i don't know", "labrador", "lab", "jack russell terrier", "golden lab"], "score": 0.0}
+{"question": "How many bottles of water are in the picture?", "pred": "1", "answers": ["2", "2", "2", "2", "2", "2", "2", "2", "2", "2"], "score": 0.0}
+{"question": "What is the male carrying in the picture?", "pred": "Bat.", "answers": ["ball", "baseball bat", "bat", "bat", "baseball bat", "bat", "bat", "bat", "bat", "baseball bat"], "score": 1.0}
+{"question": "Are the knives going to cut each other?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "What color other signs?", "pred": "Red.", "answers": ["blue", "blue", "blue", "blue", "blue, white and red", "blue, white, and red", "red white and blue", "blue, white, red", "red, white and blue", "blue"], "score": 0.0}
+{"question": "What is looking out the car?", "pred": "Dog.", "answers": ["dog", "dog", "dog", "dog", "dog", "dog", "dog", "dog", "dog", "dog"], "score": 1.0}
+{"question": "Does this vegetable look overcooked?", "pred": "Overcooked.", "answers": ["yes", "no", "yes", "yes", "yes", "no", "yes", "no", "broccoli", "yes"], "score": 0.0}
+{"question": "What are the orange objects?", "pred": "Lime.", "answers": ["carrots", "carrots", "carrots", "carrots", "carrots", "carrot", "carrots", "carrots", "carrots", "carrots"], "score": 0.0}
+{"question": "What is the logo on the player's shorts?", "pred": "FLY.", "answers": ["nike", "nike swoosh", "nike", "nike", "nike", "nike", "nike", "nike", "nike", "nike check"], "score": 0.0}
+{"question": "Is it cold outside?", "pred": "No.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is this a photo of a car?", "pred": "No.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Where is the fruit from?", "pred": "Fruit from South America.", "answers": ["ohio", "superfood", "all over", "store", "superfood", "supermarket", "superfoods", "florida", "heart", "florida"], "score": 0.0}
+{"question": "What is white in the water?", "pred": "Clouds.", "answers": ["water", "waves", "waves", "wave caps", "waves", "fish", "waves", "waves", "wave crests", "waves"], "score": 0.0}
+{"question": "Are the bears fighting?", "pred": "Fighting.", "answers": ["yes", "no", "yes", "no", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Is that how you use a snowboard?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Where is the train going?", "pred": "Away.", "answers": ["london", "moving", "on trip", "london", "somewhere in europe", "uk", "england", "england", "station", "left"], "score": 0.0}
+{"question": "What does the boy have on his face?", "pred": "Glasses.", "answers": ["glasses", "glasses", "glasses", "glasses", "glasses", "glasses", "glasses", "glasses", "glasses", "glasses"], "score": 1.0}
+{"question": "Are they in a park?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "What color eye does the bird have?", "pred": "Blue.", "answers": ["black", "black", "black", "black", "black", "black", "black", "black", "black", "black"], "score": 0.0}
+{"question": "What kind of donut is in the basket?", "pred": "Chocolate.", "answers": ["cream filled", "coconut", "caramel", "frosting", "chocolate peanut butter", "chocolate and peanut butter", "peanut", "one with icing", "cake, chocolate covered", "cake"], "score": 0.0}
+{"question": "What color is the man's hat?", "pred": "Black.", "answers": ["blue", "blue", "blue", "blue", "blue", "blue", "white", "blue", "blue", "blue"], "score": 0.0}
+{"question": "What sport is this?", "pred": "Baseball.", "answers": ["baseball", "baseball", "baseball", "baseball", "baseball", "baseball", "baseball", "baseball", "baseball", "baseball"], "score": 1.0}
+{"question": "What color is the tissue box?", "pred": "White.", "answers": ["off-white", "tan", "white", "cream", "yellow", "cream", "gold", "pale brown", "gray", "peach"], "score": 0.3}
+{"question": "Is there a crosswalk sign?", "pred": "Yes.", "answers": ["no", "no", "no", "yes", "yes", "no", "no", "no", "no", "no"], "score": 0.6}
+{"question": "What is in the sky?", "pred": "Kites.", "answers": ["kites", "parachutes", "kites", "parasailers", "clouds and kites", "kites", "parasails", "clouds", "parasails", "kites"], "score": 1.0}
+{"question": "What are the people caring in their arms?", "pred": "Kite.", "answers": ["kite", "kite", "kite", "kite", "kite", "kite", "kite", "kites", "kites", "kite"], "score": 1.0}
+{"question": "Is that a 110V or 220V power outlet?", "pred": "220V", "answers": ["not sure", "110v", "110v", "110v", "110v", "220v", "unknown", "110v", "no", "110"], "score": 0.3}
+{"question": "This is a form of transportation-what is it?", "pred": "Train.", "answers": ["train", "train", "train", "train", "train", "train", "train", "train", "train", "train"], "score": 1.0}
+{"question": "What kind of room is this?", "pred": "Bedroom.", "answers": ["bedroom", "bedroom", "bedroom", "bedroom", "bedroom", "bedroom", "bedroom", "bedroom", "bedroom", "bedroom"], "score": 1.0}
+{"question": "What are the white items?", "pred": "Bathroom.", "answers": ["toilet tub wall", "bathroom appliances, tiles", "bathroom fixtures", "sink, toilet and wall", "toilet paper", "toilet and sink", "toilet,tub,walls", "everything but towel", "toilet and tub", "toilet, bathtub"], "score": 0.0}
+{"question": "How many women are in the picture?", "pred": "5.", "answers": ["1", "6", "6", "6", "6", "6", "6", "3", "6", "6"], "score": 0.0}
+{"question": "Is this area experiencing a drought?", "pred": "Dry.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What is the yellow substance called?", "pred": "Orange.", "answers": ["banana", "banana", "orange juice", "banana", "orange juice", "banana", "orange juice", "orange juice", "banana", "juice"], "score": 0.0}
+{"question": "Is there a bookshelf?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "What is the elephant's trunk touching?", "pred": "Trunk.", "answers": ["his head", "man", "forehead", "hat", "his head", "hat", "forehead", "no", "itself", "his head"], "score": 0.0}
+{"question": "What is the man waiting on?", "pred": "Ball.", "answers": ["ball", "ball", "clay", "serve", "ball", "ball", "serve", "tennis ball", "ball", "tennis ball"], "score": 1.0}
+{"question": "Where are the men playing Frisbee?", "pred": "Grass.", "answers": ["park", "park", "park", "park", "park", "yes", "lawn", "in grass field", "on grass field", "park"], "score": 0.0}
+{"question": "Are the carrots ready?", "pred": "Ready.", "answers": ["yes", "no", "no", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "What kind of household cleaner is in the cart?", "pred": "Soap.", "answers": ["laundry detergent", "laundry detergent", "laundry detergent", "laundry detergent", "laundry detergent", "sun", "laundry detergent", "sun oxi", "laundry soap", "laundry detergent"], "score": 0.0}
+{"question": "What is on the screen?", "pred": "Computer.", "answers": ["files", "desktop", "lake", "desktop", "wallpaper", "desktop", "wallpaper", "background", "background", "ater and trees"], "score": 0.0}
+{"question": "How tall is the person on the board?", "pred": "Very tall.", "answers": ["6 feet", "6 feet tall", "72 inches", "6 ft", "6 ft", "6'1", "5'11", "6 feet", "6 ft", "6 ft"], "score": 0.0}
+{"question": "Is the apple edible?", "pred": "Yes.", "answers": ["yes", "no", "no", "yes", "no", "no", "no", "no", "no", "no"], "score": 0.6}
+{"question": "Is the woman wearing comfortable shoes?", "pred": "Comfortable.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Is the skier wearing safety gear?", "pred": "Yes.", "answers": ["no", "no", "no", "no", "no", "no", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "What does the white sign say?", "pred": "Way.", "answers": ["one way", "one way", "one way", "stop", "one way", "one way", "one way", "stop", "one way", "one way"], "score": 0.0}
+{"question": "What two main colors are on the bike?", "pred": "Red and yellow.", "answers": ["red and black", "red and white", "red and white", "red and blue", "red and white", "red, white", "red and white", "red and blue", "red and white", "red, blue"], "score": 0.0}
+{"question": "Where is the elephant?", "pred": "Zoo.", "answers": ["zoo", "zoo", "zoo", "zoo", "zoo", "behind wires", "behind fence", "behind fence", "zoo", "captivity"], "score": 1.0}
+{"question": "Is the baby cute?", "pred": "Cute.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "no", "yes"], "score": 0.0}
+{"question": "What is at the top of the photo?", "pred": "Water.", "answers": ["sky", "sky", "elephant", "sky", "sky", "sky", "sky", "sky", "elephant", "clouds"], "score": 0.0}
+{"question": "Is this a tour bus?", "pred": "No", "answers": ["no", "no", "yes", "no", "yes", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "What color are the walls?", "pred": "Brown.", "answers": ["brown", "brown", "brown", "brown", "brown", "orange", "brown", "brown", "brown", "brown"], "score": 1.0}
+{"question": "Is this cat scared or content?", "pred": "Content.", "answers": ["content", "content", "content", "content", "content", "content", "content", "content", "content", "content"], "score": 1.0}
+{"question": "Is the boy going fast?", "pred": "Fast.", "answers": ["no", "no", "no", "yes", "no", "yes", "yes", "no", "no", "no"], "score": 0.0}
+{"question": "What is this a picture of?", "pred": "Clock.", "answers": ["clock tower", "clock", "thermometer", "clock", "clock", "clock", "clock", "clock", "clock", "clock"], "score": 1.0}
+{"question": "Is this surfer old?", "pred": "Old.", "answers": ["no", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Are there rocks on the ground?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "What are those on the fridge?", "pred": "Magnets.", "answers": ["magnets", "magnets", "magnets", "fans", "magnets", "fan, canister, cup", "magnets", "magnets", "magnets", "magnets"], "score": 1.0}
+{"question": "How many ski poles?", "pred": "2.", "answers": ["6", "5", "6", "3", "7", "3", "4", "4", "5", "6"], "score": 0.0}
+{"question": "What number of vases are sitting in the window sill?", "pred": "0.", "answers": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"], "score": 1.0}
+{"question": "What color is the kite?", "pred": "Red.", "answers": ["red", "red, gold, black", "red black brown", "red", "gold, red, white, and black", "red yellow and white", "red and gold", "red, tan and black", "red, yellow, black", "red"], "score": 0.8999999999999998}
+{"question": "Is this outside?", "pred": "Outside.", "answers": ["yes", "no", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Have the leaves fallen?", "pred": "Fallen.", "answers": ["yes", "yes", "yes", "yes", "yes", "no", "yes", "yes", "no", "yes"], "score": 0.0}
+{"question": "Are there any cars?", "pred": "No.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 1.0}
+{"question": "How many women are skiing?", "pred": "0.", "answers": ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1"], "score": 0.0}
+{"question": "Could this be a seabird?", "pred": "Seagull.", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "Are all the sheep the same age?", "pred": "THEIR.", "answers": ["yes, they are!", "no", "yes", "no", "yes", "yes", "no", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Why is their plastic on the far wall?", "pred": "Poured.", "answers": ["redecorating", "plastic protector", "needs to be fixed", "no idea", "protecting installation", "remodeling", "remodeling", "to cover walls", "yes", "keep wall dry"], "score": 0.0}
+{"question": "Is the light on?", "pred": "Yes.", "answers": ["yes", "yes", "no", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 1.0}
+{"question": "Is it sunny?", "pred": "Sunny.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"], "score": 0.0}
+{"question": "Has this hill had previous skiers?", "pred": "Yes.", "answers": ["yes", "yes", "no", "yes", "no", "no", "no", "no", "no", "yes"], "score": 1.0}
+{"question": "Are there lots of spoons on this table?", "pred": "No\n\nThe answer is \"no\".", "answers": ["no", "no", "no", "no", "no", "no", "no", "no", "no", "no"], "score": 0.0}
+{"question": "What is being thrown above the child?", "pred": "Frisbee.", "answers": ["frisbee", "frisbee", "frisbee", "frisbee", "frisbee", "frisbee", "frisbee", "frisbee", "frisbee", "frisbee"], "score": 1.0}
+{"question": "What animal is seen in the image?", "pred": "Cat.", "answers": ["cat", "cat", "cat", "cat", "cat", "cat", "cat", "cat", "cat", "cat"], "score": 1.0}
+{"question": "Do the socks match the shirts?", "pred": "Yes.", "answers": ["yes", "yes", "yes", "yes", "yes", "yes", "no", "no", "yes", "yes"], "score": 1.0}
+{"question": "What is the man looking at?", "pred": "Ball.", "answers": ["goal", "ground", "ball", "soccer ball", "ball", "soccer ball", "soccer ball", "ball", "soccer ball", "ball"], "score": 1.0}
+{"question": "What is the man doing?", "pred": "Surfing.", "answers": ["surfing", "surfing", "surfing", "surfing", "looking at dog", "surfing", "surfing", "surfing", "surfing", "surfing"], "score": 1.0}
+{"question": "Where is this?", "pred": "Street.", "answers": ["hollywood", "los angeles", "dollywood", "hollywood", "dollywood", "hollywood", "hollywood", "america", "automotive repair shop", "inside car"], "score": 0.0}
+{"question": "What color shirt is he wearing?", "pred": "Red.", "answers": ["red", "red, white", "red", "red", "red", "red", "red", "red", "red", "red"], "score": 1.0}
+{"question": "What is the number in orange on the white shirt?", "pred": "0.", "answers": ["08", "08", "01", "nothing", "08", "08", "08", "08", "08", "08"], "score": 0.0}
