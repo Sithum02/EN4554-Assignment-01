@@ -1,0 +1,3017 @@
+[
+ {
+  "request": "Is a tomato a fruit or a vegetable?",
+  "steps": [
+   {
+    "output": "Tomatoes are a fruit.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Tomatoes are a fruit.",
+  "stop": "answer"
+ },
+ {
+  "request": "Remind me what I've got going on tomorrow.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-11\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-11"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-11",
+      "events": [
+       {
+        "time": "11:00",
+        "title": "Project review with Sarah"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "output": "On Wednesday, 11 March you have Project review with Sarah at 11:00.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "On Wednesday, 11 March you have Project review with Sarah at 11:00.",
+  "stop": "answer"
+ },
+ {
+  "request": "Write a two-line poem about the sea.",
+  "steps": [
+   {
+    "output": "The waves crash against the shore,  \nThe sea whispers secrets to the shore.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The waves crash against the shore,  \nThe sea whispers secrets to the shore.",
+  "stop": "answer"
+ },
+ {
+  "request": "Express 295 km in m.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 295, \"from_unit\": \"kilometers\", \"to_unit\": \"meters\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 295,
+       "from_unit": "kilometers",
+       "to_unit": "meters"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 295,
+      "from_unit": "kilometers",
+      "to_unit": "meters",
+      "result": 295000.0
+     }
+    ]
+   },
+   {
+    "output": "295 kilometers is 295000 meters.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "295 kilometers is 295000 meters.",
+  "stop": "answer"
+ },
+ {
+  "request": "Which city is Emma based in?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Emma\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Emma"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Emma Dubois",
+      "phone": "+33 1 5550 7788",
+      "email": "emma.dubois@example.com",
+      "city": "Paris"
+     }
+    ]
+   },
+   {
+    "output": "Emma Dubois is based in Paris.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Emma Dubois is based in Paris.",
+  "stop": "answer"
+ },
+ {
+  "request": "Cheers, that's everything I needed.",
+  "steps": [
+   {
+    "output": "Great to hear that! Let me know if you need anything else.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Great to hear that! Let me know if you need anything else.",
+  "stop": "answer"
+ },
+ {
+  "request": "Report the weather in Singapore using Fahrenheit.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Singapore\", \"unit\": \"fahrenheit\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Singapore",
+       "unit": "fahrenheit"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Singapore",
+      "temperature": 86,
+      "unit": "fahrenheit",
+      "condition": "thunderstorms",
+      "humidity_percent": 84
+     }
+    ]
+   },
+   {
+    "output": "The weather in Singapore: thunderstorms, 86\u00b0F, 84% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in Singapore: thunderstorms, 86\u00b0F, 84% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "Express 218 km in meters.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 218, \"from_unit\": \"kilometers\", \"to_unit\": \"meters\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 218,
+       "from_unit": "kilometers",
+       "to_unit": "meters"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 218,
+      "from_unit": "kilometers",
+      "to_unit": "meters",
+      "result": 218000.0
+     }
+    ]
+   },
+   {
+    "output": "218 kilometers is 218000 meters.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "218 kilometers is 218000 meters.",
+  "stop": "answer"
+ },
+ {
+  "request": "Tell me a bit about yourself.",
+  "steps": [
+   {
+    "output": "I'm your personal assistant. I can check the weather, look up your calendar and contacts, and convert units.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "I'm your personal assistant. I can check the weather, look up your calendar and contacts, and convert units.",
+  "stop": "answer"
+ },
+ {
+  "request": "What's the weather usually like in a desert?",
+  "steps": [
+   {
+    "output": "The weather in a desert can vary greatly depending on the specific location. In general, it's hot and dry, with little rainfall.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in a desert can vary greatly depending on the specific location. In general, it's hot and dry, with little rainfall.",
+  "stop": "answer"
+ },
+ {
+  "request": "Turn 228 oz into g for me.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 228, \"from_unit\": \"ounces\", \"to_unit\": \"grams\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 228,
+       "from_unit": "ounces",
+       "to_unit": "grams"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 228,
+      "from_unit": "ounces",
+      "to_unit": "grams",
+      "result": 6463.69
+     }
+    ]
+   },
+   {
+    "output": "228 ounces is 6463.69 grams.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "228 ounces is 6463.69 grams.",
+  "stop": "answer"
+ },
+ {
+  "request": "Do I have a phone number saved for Nimal?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Nimal\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Nimal"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Nimal Perera",
+      "phone": "+94 77 555 4567",
+      "email": "nimal.perera@example.com",
+      "city": "Kandy"
+     }
+    ]
+   },
+   {
+    "output": "Nimal Perera's phone number is +94 77 555 4567.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Nimal Perera's phone number is +94 77 555 4567.",
+  "stop": "answer"
+ },
+ {
+  "request": "If I've got 154 mi, what would that be in km?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 154, \"from_unit\": \"miles\", \"to_unit\": \"kilometers\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 154,
+       "from_unit": "miles",
+       "to_unit": "kilometers"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 154,
+      "from_unit": "miles",
+      "to_unit": "kilometers",
+      "result": 247.84
+     }
+    ]
+   },
+   {
+    "output": "154 miles is 247.84 kilometers.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "154 miles is 247.84 kilometers.",
+  "stop": "answer"
+ },
+ {
+  "request": "Quick conversion, please: 96 ml to liters.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 96, \"from_unit\": \"milliliters\", \"to_unit\": \"liters\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 96,
+       "from_unit": "milliliters",
+       "to_unit": "liters"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 96,
+      "from_unit": "milliliters",
+      "to_unit": "liters",
+      "result": 0.1
+     }
+    ]
+   },
+   {
+    "output": "96 milliliters is 0.1 liters.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "96 milliliters is 0.1 liters.",
+  "stop": "answer"
+ },
+ {
+  "request": "Remind me what I've got going on on 2026-03-26.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-26\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-26"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-26",
+      "events": []
+     }
+    ]
+   },
+   {
+    "output": "You have nothing scheduled on Saturday, 26 March.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "You have nothing scheduled on Saturday, 26 March.",
+  "stop": "answer"
+ },
+ {
+  "request": "Hey, good evening!",
+  "steps": [
+   {
+    "output": "Good evening! How can I help?",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Good evening! How can I help?",
+  "stop": "answer"
+ },
+ {
+  "request": "Check how cold it is in London.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"London\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "London"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "London",
+      "temperature": 9,
+      "unit": "celsius",
+      "condition": "overcast",
+      "humidity_percent": 81
+     }
+    ]
+   },
+   {
+    "output": "It's currently 9\u00b0C and overcast in London, with 81% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "It's currently 9\u00b0C and overcast in London, with 81% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "What sorts of things can you help me with?",
+  "steps": [
+   {
+    "output": "I'm your personal assistant. I can check the weather, look up your calendar and contacts, and convert units.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "I'm your personal assistant. I can check the weather, look up your calendar and contacts, and convert units.",
+  "stop": "answer"
+ },
+ {
+  "request": "If I've got 6 centimeters, what would that be in inches?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 6, \"from_unit\": \"centimeters\", \"to_unit\": \"inches\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 6,
+       "from_unit": "centimeters",
+       "to_unit": "inches"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 6,
+      "from_unit": "centimeters",
+      "to_unit": "inches",
+      "result": 2.36
+     }
+    ]
+   },
+   {
+    "output": "6 centimeters is 2.36 inches.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "6 centimeters is 2.36 inches.",
+  "stop": "answer"
+ },
+ {
+  "request": "Turn 161 ml into L for me.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 161, \"from_unit\": \"milliliters\", \"to_unit\": \"liters\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 161,
+       "from_unit": "milliliters",
+       "to_unit": "liters"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 161,
+      "from_unit": "milliliters",
+      "to_unit": "liters",
+      "result": 0.16
+     }
+    ]
+   },
+   {
+    "output": "161 milliliters is 0.16 liters.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "161 milliliters is 0.16 liters.",
+  "stop": "answer"
+ },
+ {
+  "request": "Should Chloe take an umbrella today?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Chloe\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Chloe"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Chloe Martin",
+      "phone": "+1 416 555 0123",
+      "email": "chloe.martin@example.com",
+      "city": "Toronto"
+     }
+    ]
+   },
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Toronto\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Toronto"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Toronto",
+      "temperature": 1,
+      "unit": "celsius",
+      "condition": "snow",
+      "humidity_percent": 72
+     }
+    ]
+   },
+   {
+    "output": "Chloe Martin lives in Toronto, where it's currently 1\u00b0C and snow.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Chloe Martin lives in Toronto, where it's currently 1\u00b0C and snow.",
+  "stop": "answer"
+ },
+ {
+  "request": "Any idea what the weather's doing in Cape Town?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Cape Town\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Cape Town"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Cape Town",
+      "temperature": 22,
+      "unit": "celsius",
+      "condition": "windy",
+      "humidity_percent": 58
+     }
+    ]
+   },
+   {
+    "output": "The weather in Cape Town: windy, 22\u00b0C, 58% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in Cape Town: windy, 22\u00b0C, 58% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "Which planet is closest to the sun?",
+  "steps": [
+   {
+    "output": "Jupiter is the planet closest to the sun.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Jupiter is the planet closest to the sun.",
+  "stop": "answer"
+ },
+ {
+  "request": "Remind me what I've got going on on March 17th.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-17\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-17"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-17",
+      "events": [
+       {
+        "time": "09:00",
+        "title": "Flight to Singapore"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "output": "On Friday, 17 March you have Flight to Singapore at 09:00.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "On Friday, 17 March you have Flight to Singapore at 09:00.",
+  "stop": "answer"
+ },
+ {
+  "request": "Quick conversion, please: 262 kilometres to miles.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 262, \"from_unit\": \"kilometers\", \"to_unit\": \"miles\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 262,
+       "from_unit": "kilometers",
+       "to_unit": "miles"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 262,
+      "from_unit": "kilometers",
+      "to_unit": "miles",
+      "result": 162.8
+     }
+    ]
+   },
+   {
+    "output": "262 kilometers is 162.8 miles.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "262 kilometers is 162.8 miles.",
+  "stop": "answer"
+ },
+ {
+  "request": "Add 125 and 250.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"add_numbers\", \"arguments\": {\"number1\": 125, \"number2\": 250}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "add_numbers",
+      "arguments": {
+       "number1": 125,
+       "number2": 250
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "error": "Unknown tool 'add_numbers'."
+     }
+    ]
+   },
+   {
+    "output": "I'm sorry, I don't know how to add numbers.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "I'm sorry, I don't know how to add numbers.",
+  "stop": "answer"
+ },
+ {
+  "request": "I'm about to call Chloe. What's the weather over there?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"London\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "London"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "London",
+      "temperature": 9,
+      "unit": "celsius",
+      "condition": "overcast",
+      "humidity_percent": 81
+     }
+    ]
+   },
+   {
+    "output": "The weather in London: overcast, 9\u00b0C, 81% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in London: overcast, 9\u00b0C, 81% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "At what temperature does water boil, in Celsius?",
+  "steps": [
+   {
+    "output": "Water boils at 100\u00b0C at standard atmospheric pressure.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Water boils at 100\u00b0C at standard atmospheric pressure.",
+  "stop": "answer"
+ },
+ {
+  "request": "Express 22 degrees Celsius in degrees Fahrenheit.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 22, \"from_unit\": \"celsius\", \"to_unit\": \"fahrenheit\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 22,
+       "from_unit": "celsius",
+       "to_unit": "fahrenheit"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 22,
+      "from_unit": "celsius",
+      "to_unit": "fahrenheit",
+      "result": 71.6
+     }
+    ]
+   },
+   {
+    "output": "22 celsius is 71.6 fahrenheit.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "22 celsius is 71.6 fahrenheit.",
+  "stop": "answer"
+ },
+ {
+  "request": "Quick conversion, please: 75.3 oz to g.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 75.3, \"from_unit\": \"ounces\", \"to_unit\": \"grams\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 75.3,
+       "from_unit": "ounces",
+       "to_unit": "grams"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 75.3,
+      "from_unit": "ounces",
+      "to_unit": "grams",
+      "result": 2134.72
+     }
+    ]
+   },
+   {
+    "output": "75.3 ounces is 2134.72 grams.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "75.3 ounces is 2134.72 grams.",
+  "stop": "answer"
+ },
+ {
+  "request": "Do you know Poland's capital?",
+  "steps": [
+   {
+    "output": "The capital of Poland is Warsaw.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The capital of Poland is Warsaw.",
+  "stop": "answer"
+ },
+ {
+  "request": "How long is a marathon in kilometres?",
+  "steps": [
+   {
+    "output": "A marathon is 42.2 miles.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "A marathon is 42.2 miles.",
+  "stop": "answer"
+ },
+ {
+  "request": "Aiko's contact info, please.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Aiko\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Aiko"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Aiko Tanaka",
+      "phone": "+81 3 5550 1234",
+      "email": "aiko.tanaka@example.com",
+      "city": "Tokyo"
+     }
+    ]
+   },
+   {
+    "output": "Aiko Tanaka's phone number is +81 3 5550 1234.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Aiko Tanaka's phone number is +81 3 5550 1234.",
+  "stop": "answer"
+ },
+ {
+  "request": "What do you get if you multiply 9 by 6?",
+  "steps": [
+   {
+    "output": "9 multiplied by 6 is 54.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "9 multiplied by 6 is 54.",
+  "stop": "answer"
+ },
+ {
+  "request": "Anything scheduled on 12th March?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-12\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-12"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-12",
+      "events": [
+       {
+        "time": "18:30",
+        "title": "Badminton with Kamal"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "output": "On Thursday, 12 March you have Badminton with Kamal at 18:30.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "On Thursday, 12 March you have Badminton with Kamal at 18:30.",
+  "stop": "answer"
+ },
+ {
+  "request": "Which city is Aiko based in?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Aiko\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Aiko"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Aiko Tanaka",
+      "phone": "+81 3 5550 1234",
+      "email": "aiko.tanaka@example.com",
+      "city": "Tokyo"
+     }
+    ]
+   },
+   {
+    "output": "Aiko Tanaka is based in Tokyo.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Aiko Tanaka is based in Tokyo.",
+  "stop": "answer"
+ },
+ {
+  "request": "Is my diary free today?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-10\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-10"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-10",
+      "events": [
+       {
+        "time": "09:30",
+        "title": "Team stand-up"
+       },
+       {
+        "time": "15:00",
+        "title": "Dentist appointment"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "output": "On Tuesday, 10 March you have Team stand-up at 09:30 and Dentist appointment at 15:00.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "On Tuesday, 10 March you have Team stand-up at 09:30 and Dentist appointment at 15:00.",
+  "stop": "answer"
+ },
+ {
+  "request": "Fatima's contact info, please.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Fatima\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Fatima"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Fatima Al-Sayed",
+      "phone": "+971 4 555 0199",
+      "email": "fatima.alsayed@example.com",
+      "city": "Dubai"
+     }
+    ]
+   },
+   {
+    "output": "Fatima Al-Sayed's phone number is +971 4 555 0199.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Fatima Al-Sayed's phone number is +971 4 555 0199.",
+  "stop": "answer"
+ },
+ {
+  "request": "Who wrote Romeo and Juliet?",
+  "steps": [
+   {
+    "output": "William Shakespeare wrote Romeo and Juliet.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "William Shakespeare wrote Romeo and Juliet.",
+  "stop": "answer"
+ },
+ {
+  "request": "Hiya, how's it going?",
+  "steps": [
+   {
+    "output": "I'm doing well, thanks for asking! How can I help you?",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "I'm doing well, thanks for asking! How can I help you?",
+  "stop": "answer"
+ },
+ {
+  "request": "Cape Town weather?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Cape Town\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Cape Town"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Cape Town",
+      "temperature": 22,
+      "unit": "celsius",
+      "condition": "windy",
+      "humidity_percent": 58
+     }
+    ]
+   },
+   {
+    "output": "The weather in Cape Town: windy, 22\u00b0C, 58% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in Cape Town: windy, 22\u00b0C, 58% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "How do New York and Toronto compare weather-wise today?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"New York\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Toronto\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "New York"
+      }
+     },
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Toronto"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "New York",
+      "temperature": 6,
+      "unit": "celsius",
+      "condition": "windy",
+      "humidity_percent": 48
+     },
+     {
+      "city": "Toronto",
+      "temperature": 1,
+      "unit": "celsius",
+      "condition": "snow",
+      "humidity_percent": 72
+     }
+    ]
+   },
+   {
+    "output": "In New York it's 6\u00b0C and windy, while in Toronto it's 1\u00b0C and snow.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "In New York it's 6\u00b0C and windy, while in Toronto it's 1\u00b0C and snow.",
+  "stop": "answer"
+ },
+ {
+  "request": "Do I have a phone number saved for Sarah?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Sarah\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Sarah"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Sarah Collins",
+      "phone": "+44 20 5550 0321",
+      "email": "sarah.collins@example.com",
+      "city": "London"
+     }
+    ]
+   },
+   {
+    "output": "Sarah Collins's phone number is +44 20 5550 0321.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Sarah Collins's phone number is +44 20 5550 0321.",
+  "stop": "answer"
+ },
+ {
+  "request": "What temperature is it in the city where Emma Dubois lives?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Emma Dubois\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Emma Dubois"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Emma Dubois",
+      "phone": "+33 1 5550 7788",
+      "email": "emma.dubois@example.com",
+      "city": "Paris"
+     }
+    ]
+   },
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Paris\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Paris"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Paris",
+      "temperature": 12,
+      "unit": "celsius",
+      "condition": "light rain",
+      "humidity_percent": 76
+     }
+    ]
+   },
+   {
+    "output": "Emma Dubois lives in Paris, where it's currently 12\u00b0C and light rain.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Emma Dubois lives in Paris, where it's currently 12\u00b0C and light rain.",
+  "stop": "answer"
+ },
+ {
+  "request": "What's it like outside in Colombo now, in degrees F?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Colombo\", \"unit\": \"fahrenheit\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Colombo",
+       "unit": "fahrenheit"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Colombo",
+      "temperature": 88,
+      "unit": "fahrenheit",
+      "condition": "partly cloudy",
+      "humidity_percent": 78
+     }
+    ]
+   },
+   {
+    "output": "It's currently 88\u00b0F and partly cloudy in Colombo, with 78% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "It's currently 88\u00b0F and partly cloudy in Colombo, with 78% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "Have I got plans on Mar 28?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-28\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-28"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-28",
+      "events": []
+     }
+    ]
+   },
+   {
+    "output": "You have nothing scheduled on Saturday, 28 March.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "You have nothing scheduled on Saturday, 28 March.",
+  "stop": "answer"
+ },
+ {
+  "request": "What do you get if you multiply 7 by 8?",
+  "steps": [
+   {
+    "output": "7 times 8 is 56.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "7 times 8 is 56.",
+  "stop": "answer"
+ },
+ {
+  "request": "Report the weather in Nuwara Eliya using Fahrenheit.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Nuwara Eliya\", \"unit\": \"fahrenheit\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Nuwara Eliya",
+       "unit": "fahrenheit"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Nuwara Eliya",
+      "temperature": 61,
+      "unit": "fahrenheit",
+      "condition": "foggy",
+      "humidity_percent": 92
+     }
+    ]
+   },
+   {
+    "output": "The weather in Nuwara Eliya: foggy, 61\u00b0F, 92% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in Nuwara Eliya: foggy, 61\u00b0F, 92% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "Which is warmer right now, Nuwara Eliya or Bangkok?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Nuwara Eliya\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Nuwara Eliya"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Nuwara Eliya",
+      "temperature": 16,
+      "unit": "celsius",
+      "condition": "foggy",
+      "humidity_percent": 92
+     }
+    ]
+   },
+   {
+    "output": "In Nuwara Eliya it's 16\u00b0C right now, foggy, humidity 92%.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "In Nuwara Eliya it's 16\u00b0C right now, foggy, humidity 92%.",
+  "stop": "answer"
+ },
+ {
+  "request": "How do Jaffna and Cape Town compare weather-wise today?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Jaffna\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Cape Town\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Jaffna"
+      }
+     },
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Cape Town"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Jaffna",
+      "temperature": 33,
+      "unit": "celsius",
+      "condition": "sunny",
+      "humidity_percent": 62
+     },
+     {
+      "city": "Cape Town",
+      "temperature": 22,
+      "unit": "celsius",
+      "condition": "windy",
+      "humidity_percent": 58
+     }
+    ]
+   },
+   {
+    "output": "In Jaffna it's 33\u00b0C and sunny, while in Cape Town it's 22\u00b0C and windy.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "In Jaffna it's 33\u00b0C and sunny, while in Cape Town it's 22\u00b0C and windy.",
+  "stop": "answer"
+ },
+ {
+  "request": "Remind me what I've got going on on Mar 18.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-18\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-18"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-18",
+      "events": []
+     }
+    ]
+   },
+   {
+    "output": "You have nothing scheduled on Saturday, 18 March.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "You have nothing scheduled on Saturday, 18 March.",
+  "stop": "answer"
+ },
+ {
+  "request": "Express 140 g in oz.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 140, \"from_unit\": \"grams\", \"to_unit\": \"ounces\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 140,
+       "from_unit": "grams",
+       "to_unit": "ounces"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 140,
+      "from_unit": "grams",
+      "to_unit": "ounces",
+      "result": 4.94
+     }
+    ]
+   },
+   {
+    "output": "140 grams is 4.94 ounces.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "140 grams is 4.94 ounces.",
+  "stop": "answer"
+ },
+ {
+  "request": "Which city is the capital of Turkey?",
+  "steps": [
+   {
+    "output": "The capital of Turkey is Ankara.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The capital of Turkey is Ankara.",
+  "stop": "answer"
+ },
+ {
+  "request": "Which city is the capital of the Netherlands?",
+  "steps": [
+   {
+    "output": "The capital of the Netherlands is Amsterdam.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The capital of the Netherlands is Amsterdam.",
+  "stop": "answer"
+ },
+ {
+  "request": "Pull up my agenda for March 18th.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-18\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-18"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-18",
+      "events": []
+     }
+    ]
+   },
+   {
+    "output": "Your calendar is free on Saturday, 18 March.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Your calendar is free on Saturday, 18 March.",
+  "stop": "answer"
+ },
+ {
+  "request": "What e-mail does Sipho use?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Sipho\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Sipho"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Sipho Ndlovu",
+      "phone": "+27 21 555 0456",
+      "email": "sipho.ndlovu@example.com",
+      "city": "Cape Town"
+     }
+    ]
+   },
+   {
+    "output": "Sipho Ndlovu's email address is sipho.ndlovu@example.com.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Sipho Ndlovu's email address is sipho.ndlovu@example.com.",
+  "stop": "answer"
+ },
+ {
+  "request": "67 gal equals how many liters?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 67, \"from_unit\": \"gallons\", \"to_unit\": \"liters\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 67,
+       "from_unit": "gallons",
+       "to_unit": "liters"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 67,
+      "from_unit": "gallons",
+      "to_unit": "liters",
+      "result": 253.62
+     }
+    ]
+   },
+   {
+    "output": "67 gallons is 253.62 liters.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "67 gallons is 253.62 liters.",
+  "stop": "answer"
+ },
+ {
+  "request": "Do you know Mexico's capital?",
+  "steps": [
+   {
+    "output": "The capital of Mexico is Mexico City.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The capital of Mexico is Mexico City.",
+  "stop": "answer"
+ },
+ {
+  "request": "Berlin weather?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Berlin\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Berlin"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Berlin",
+      "temperature": 3,
+      "unit": "celsius",
+      "condition": "snow",
+      "humidity_percent": 87
+     }
+    ]
+   },
+   {
+    "output": "The weather in Berlin: snow, 3\u00b0C, 87% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in Berlin: snow, 3\u00b0C, 87% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "Subtract 19 from 64.",
+  "steps": [
+   {
+    "output": "64 - 19 = 45.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "64 - 19 = 45.",
+  "stop": "answer"
+ },
+ {
+  "request": "Pull up my agenda for 2026-03-26.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-26\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-26"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-26",
+      "events": []
+     }
+    ]
+   },
+   {
+    "output": "Your calendar is free on Saturday, 26 March.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Your calendar is free on Saturday, 26 March.",
+  "stop": "answer"
+ },
+ {
+  "request": "Remind me what I've got going on on March 15th.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-15\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-15"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-15",
+      "events": []
+     }
+    ]
+   },
+   {
+    "output": "You have nothing scheduled on Saturday, 15 March.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "You have nothing scheduled on Saturday, 15 March.",
+  "stop": "answer"
+ },
+ {
+  "request": "Report the weather in Mumbai using Fahrenheit.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Mumbai\", \"unit\": \"fahrenheit\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Mumbai",
+       "unit": "fahrenheit"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Mumbai",
+      "temperature": 90,
+      "unit": "fahrenheit",
+      "condition": "hazy",
+      "humidity_percent": 70
+     }
+    ]
+   },
+   {
+    "output": "The weather in Mumbai: hazy, 90\u00b0F, 70% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in Mumbai: hazy, 90\u00b0F, 70% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "Could you look up current conditions in Sydney?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Sydney\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Sydney"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Sydney",
+      "temperature": 24,
+      "unit": "celsius",
+      "condition": "sunny",
+      "humidity_percent": 60
+     }
+    ]
+   },
+   {
+    "output": "It's currently 24\u00b0C and sunny in Sydney, with 60% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "It's currently 24\u00b0C and sunny in Sydney, with 60% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "Ravi's contact info, please.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Ravi\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Ravi"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Ravi Kumar",
+      "phone": "+91 98400 55512",
+      "email": "ravi.kumar@example.com",
+      "city": "Chennai"
+     }
+    ]
+   },
+   {
+    "output": "Ravi Kumar's phone number is +91 98400 55512.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Ravi Kumar's phone number is +91 98400 55512.",
+  "stop": "answer"
+ },
+ {
+  "request": "Remind me what I've got going on today.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"London\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "London"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "London",
+      "temperature": 9,
+      "unit": "celsius",
+      "condition": "overcast",
+      "humidity_percent": 81
+     }
+    ]
+   },
+   {
+    "output": "It's currently 9\u00b0C and overcast in London, with 81% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "It's currently 9\u00b0C and overcast in London, with 81% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "Anything scheduled today?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-10\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-10"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-10",
+      "events": [
+       {
+        "time": "09:30",
+        "title": "Team stand-up"
+       },
+       {
+        "time": "15:00",
+        "title": "Dentist appointment"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "output": "On Tuesday, 10 March you have Team stand-up at 09:30 and Dentist appointment at 15:00.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "On Tuesday, 10 March you have Team stand-up at 09:30 and Dentist appointment at 15:00.",
+  "stop": "answer"
+ },
+ {
+  "request": "Which city is the capital of Argentina?",
+  "steps": [
+   {
+    "output": "The capital of Argentina is Buenos Aires.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The capital of Argentina is Buenos Aires.",
+  "stop": "answer"
+ },
+ {
+  "request": "What e-mail does Chloe use?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Chloe\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Chloe"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Chloe Martin",
+      "phone": "+1 416 555 0123",
+      "email": "chloe.martin@example.com",
+      "city": "Toronto"
+     }
+    ]
+   },
+   {
+    "output": "Chloe Martin's email address is chloe.martin@example.com.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Chloe Martin's email address is chloe.martin@example.com.",
+  "stop": "answer"
+ },
+ {
+  "request": "Kandy weather?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Kandy\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Kandy"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Kandy",
+      "temperature": 24,
+      "unit": "celsius",
+      "condition": "light rain",
+      "humidity_percent": 85
+     }
+    ]
+   },
+   {
+    "output": "The weather in Kandy: light rain, 24\u00b0C, 85% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in Kandy: light rain, 24\u00b0C, 85% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "What e-mail does Ravi use?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Ravi\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Ravi"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Ravi Kumar",
+      "phone": "+91 98400 55512",
+      "email": "ravi.kumar@example.com",
+      "city": "Chennai"
+     }
+    ]
+   },
+   {
+    "output": "Ravi Kumar's email address is ravi.kumar@example.com.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Ravi Kumar's email address is ravi.kumar@example.com.",
+  "stop": "answer"
+ },
+ {
+  "request": "Have I got plans on March 26th?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-26\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-26"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-26",
+      "events": []
+     }
+    ]
+   },
+   {
+    "output": "You have nothing scheduled on Saturday, 26 March.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "You have nothing scheduled on Saturday, 26 March.",
+  "stop": "answer"
+ },
+ {
+  "request": "Do you know Vietnam's capital?",
+  "steps": [
+   {
+    "output": "The capital of Vietnam is Hanoi.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The capital of Vietnam is Hanoi.",
+  "stop": "answer"
+ },
+ {
+  "request": "Express 113 lb in kilos.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 113, \"from_unit\": \"pounds\", \"to_unit\": \"kilograms\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 113,
+       "from_unit": "pounds",
+       "to_unit": "kilograms"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 113,
+      "from_unit": "pounds",
+      "to_unit": "kilograms",
+      "result": 51.26
+     }
+    ]
+   },
+   {
+    "output": "113 pounds is 51.26 kilograms.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "113 pounds is 51.26 kilograms.",
+  "stop": "answer"
+ },
+ {
+  "request": "Any idea what the weather's doing in Mumbai?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Mumbai\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Mumbai"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Mumbai",
+      "temperature": 32,
+      "unit": "celsius",
+      "condition": "hazy",
+      "humidity_percent": 70
+     }
+    ]
+   },
+   {
+    "output": "The weather in Mumbai: hazy, 32\u00b0C, 70% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in Mumbai: hazy, 32\u00b0C, 70% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "What temperature is it in the city where Chloe Martin lives?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Chloe Martin\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Chloe Martin"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Chloe Martin",
+      "phone": "+1 416 555 0123",
+      "email": "chloe.martin@example.com",
+      "city": "Toronto"
+     }
+    ]
+   },
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Toronto\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Toronto"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Toronto",
+      "temperature": 1,
+      "unit": "celsius",
+      "condition": "snow",
+      "humidity_percent": 72
+     }
+    ]
+   },
+   {
+    "output": "Chloe Martin lives in Toronto, where it's currently 1\u00b0C and snow.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Chloe Martin lives in Toronto, where it's currently 1\u00b0C and snow.",
+  "stop": "answer"
+ },
+ {
+  "request": "I'm about to call Fatima. What's the weather over there?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"London\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "London"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "London",
+      "temperature": 9,
+      "unit": "celsius",
+      "condition": "overcast",
+      "humidity_percent": 81
+     }
+    ]
+   },
+   {
+    "output": "The weather in London: overcast, 9\u00b0C, 81% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in London: overcast, 9\u00b0C, 81% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "Any idea what the weather's doing in Berlin?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Berlin\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Berlin"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Berlin",
+      "temperature": 3,
+      "unit": "celsius",
+      "condition": "snow",
+      "humidity_percent": 87
+     }
+    ]
+   },
+   {
+    "output": "The weather in Berlin: snow, 3\u00b0C, 87% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in Berlin: snow, 3\u00b0C, 87% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "Explain what fog is in one sentence.",
+  "steps": [
+   {
+    "output": "Fog forms when water vapour in the air condenses into tiny droplets.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Fog forms when water vapour in the air condenses into tiny droplets.",
+  "stop": "answer"
+ },
+ {
+  "request": "Which is warmer right now, Nuwara Eliya or London?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Nuwara Eliya\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Nuwara Eliya"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Nuwara Eliya",
+      "temperature": 16,
+      "unit": "celsius",
+      "condition": "foggy",
+      "humidity_percent": 92
+     }
+    ]
+   },
+   {
+    "output": "In Nuwara Eliya it's 16\u00b0C right now, foggy, humidity 92%.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "In Nuwara Eliya it's 16\u00b0C right now, foggy, humidity 92%.",
+  "stop": "answer"
+ },
+ {
+  "request": "What temperature is it in the city where Sipho Ndlovu lives?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Sipho Ndlovu\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Sipho Ndlovu"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Sipho Ndlovu",
+      "phone": "+27 21 555 0456",
+      "email": "sipho.ndlovu@example.com",
+      "city": "Cape Town"
+     }
+    ]
+   },
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Cape Town\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Cape Town"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Cape Town",
+      "temperature": 22,
+      "unit": "celsius",
+      "condition": "windy",
+      "humidity_percent": 58
+     }
+    ]
+   },
+   {
+    "output": "Sipho Ndlovu lives in Cape Town, where it's currently 22\u00b0C and windy.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Sipho Ndlovu lives in Cape Town, where it's currently 22\u00b0C and windy.",
+  "stop": "answer"
+ },
+ {
+  "request": "How do Cape Town and London compare weather-wise today?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Cape Town\"}}\n</tool_call>\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"London\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Cape Town"
+      }
+     },
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "London"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Cape Town",
+      "temperature": 22,
+      "unit": "celsius",
+      "condition": "windy",
+      "humidity_percent": 58
+     },
+     {
+      "city": "London",
+      "temperature": 9,
+      "unit": "celsius",
+      "condition": "overcast",
+      "humidity_percent": 81
+     }
+    ]
+   },
+   {
+    "output": "In Cape Town it's 22\u00b0C and windy, while in London it's 9\u00b0C and overcast.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "In Cape Town it's 22\u00b0C and windy, while in London it's 9\u00b0C and overcast.",
+  "stop": "answer"
+ },
+ {
+  "request": "Which city is Tharindu based in?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Tharindu\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Tharindu"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Tharindu Jayasuriya",
+      "phone": "+94 76 555 8800",
+      "email": "tharindu.j@example.com",
+      "city": "Colombo"
+     }
+    ]
+   },
+   {
+    "output": "Tharindu Jayasuriya is based in Colombo.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Tharindu Jayasuriya is based in Colombo.",
+  "stop": "answer"
+ },
+ {
+  "request": "Add 37 and 48.",
+  "steps": [
+   {
+    "output": "37 and 48 are 85.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "37 and 48 are 85.",
+  "stop": "answer"
+ },
+ {
+  "request": "Lukas's contact info, please.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Lukas\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Lukas"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Lukas Weber",
+      "phone": "+49 30 5550 4411",
+      "email": "lukas.weber@example.com",
+      "city": "Berlin"
+     }
+    ]
+   },
+   {
+    "output": "Lukas Weber's phone number is +49 30 5550 4411.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Lukas Weber's phone number is +49 30 5550 4411.",
+  "stop": "answer"
+ },
+ {
+  "request": "How many seconds are there in a minute?",
+  "steps": [
+   {
+    "output": "There are 60 seconds in a minute.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "There are 60 seconds in a minute.",
+  "stop": "answer"
+ },
+ {
+  "request": "Kamal's contact info, please.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Kamal\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Kamal"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Kamal Silva",
+      "phone": "+94 71 555 0192",
+      "email": "kamal.silva@example.com",
+      "city": "Galle"
+     }
+    ]
+   },
+   {
+    "output": "Kamal Silva's phone number is +94 71 555 0192.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Kamal Silva's phone number is +94 71 555 0192.",
+  "stop": "answer"
+ },
+ {
+  "request": "Could you look up current conditions in Jaffna?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Jaffna\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Jaffna"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Jaffna",
+      "temperature": 33,
+      "unit": "celsius",
+      "condition": "sunny",
+      "humidity_percent": 62
+     }
+    ]
+   },
+   {
+    "output": "In Jaffna it's 33\u00b0C right now, sunny, humidity 62%.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "In Jaffna it's 33\u00b0C right now, sunny, humidity 62%.",
+  "stop": "answer"
+ },
+ {
+  "request": "What number should I dial to reach Daniel?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Daniel\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Daniel"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Daniel Brooks",
+      "phone": "+1 212 555 0147",
+      "email": "daniel.brooks@example.com",
+      "city": "New York"
+     }
+    ]
+   },
+   {
+    "output": "Daniel Brooks's phone number is +1 212 555 0147.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Daniel Brooks's phone number is +1 212 555 0147.",
+  "stop": "answer"
+ },
+ {
+  "request": "Should Sarah take an umbrella today?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Sarah\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Sarah"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Sarah Collins",
+      "phone": "+44 20 5550 0321",
+      "email": "sarah.collins@example.com",
+      "city": "London"
+     }
+    ]
+   },
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"London\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "London"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "London",
+      "temperature": 9,
+      "unit": "celsius",
+      "condition": "overcast",
+      "humidity_percent": 81
+     }
+    ]
+   },
+   {
+    "output": "Sarah Collins lives in London, where it's currently 9\u00b0C and overcast.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Sarah Collins lives in London, where it's currently 9\u00b0C and overcast.",
+  "stop": "answer"
+ },
+ {
+  "request": "Many thanks for the help!",
+  "steps": [
+   {
+    "output": "You're very welcome. If you have any other questions, feel free to ask.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "You're very welcome. If you have any other questions, feel free to ask.",
+  "stop": "answer"
+ },
+ {
+  "request": "Which city is the capital of Sweden?",
+  "steps": [
+   {
+    "output": "The capital of Sweden is Stockholm.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The capital of Sweden is Stockholm.",
+  "stop": "answer"
+ },
+ {
+  "request": "Have I got plans on Mar 27?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-27\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-27"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-27",
+      "events": [
+       {
+        "time": "20:00",
+        "title": "Movie night"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "output": "On Friday, 27 March you have Movie night at 20:00.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "On Friday, 27 March you have Movie night at 20:00.",
+  "stop": "answer"
+ },
+ {
+  "request": "Could you look up current conditions in London?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"London\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "London"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "London",
+      "temperature": 9,
+      "unit": "celsius",
+      "condition": "overcast",
+      "humidity_percent": 81
+     }
+    ]
+   },
+   {
+    "output": "The weather in London: overcast, 9\u00b0C, 81% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in London: overcast, 9\u00b0C, 81% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "82.4 kg equals how many pounds?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 82.4, \"from_unit\": \"kilograms\", \"to_unit\": \"pounds\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 82.4,
+       "from_unit": "kilograms",
+       "to_unit": "pounds"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 82.4,
+      "from_unit": "kilograms",
+      "to_unit": "pounds",
+      "result": 181.66
+     }
+    ]
+   },
+   {
+    "output": "82.4 kilograms is 181.66 pounds.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "82.4 kilograms is 181.66 pounds.",
+  "stop": "answer"
+ },
+ {
+  "request": "What temperature is it in the city where Fatima Al-Sayed lives?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Fatima Al-Sayed\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Fatima Al-Sayed"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Fatima Al-Sayed",
+      "phone": "+971 4 555 0199",
+      "email": "fatima.alsayed@example.com",
+      "city": "Dubai"
+     }
+    ]
+   },
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Dubai\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Dubai"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Dubai",
+      "temperature": 35,
+      "unit": "celsius",
+      "condition": "sunny",
+      "humidity_percent": 30
+     }
+    ]
+   },
+   {
+    "output": "Fatima Al-Sayed lives in Dubai, where it's currently 35\u00b0C and sunny.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Fatima Al-Sayed lives in Dubai, where it's currently 35\u00b0C and sunny.",
+  "stop": "answer"
+ },
+ {
+  "request": "If I've got 103 cm, what would that be in inches?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"convert_units\", \"arguments\": {\"value\": 103, \"from_unit\": \"centimeters\", \"to_unit\": \"inches\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "convert_units",
+      "arguments": {
+       "value": 103,
+       "from_unit": "centimeters",
+       "to_unit": "inches"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "value": 103,
+      "from_unit": "centimeters",
+      "to_unit": "inches",
+      "result": 40.55
+     }
+    ]
+   },
+   {
+    "output": "103 centimeters is 40.55 inches.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "103 centimeters is 40.55 inches.",
+  "stop": "answer"
+ },
+ {
+  "request": "Fetch the contact details for Tharindu Jayasuriya.",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Tharindu Jayasuriya\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "find_contact",
+      "arguments": {
+       "name": "Tharindu Jayasuriya"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "name": "Tharindu Jayasuriya",
+      "phone": "+94 76 555 8800",
+      "email": "tharindu.j@example.com",
+      "city": "Colombo"
+     }
+    ]
+   },
+   {
+    "output": "Tharindu Jayasuriya's phone number is +94 76 555 8800.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "Tharindu Jayasuriya's phone number is +94 76 555 8800.",
+  "stop": "answer"
+ },
+ {
+  "request": "Any idea what the weather's doing in Sydney?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"city\": \"Sydney\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_weather",
+      "arguments": {
+       "city": "Sydney"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "city": "Sydney",
+      "temperature": 24,
+      "unit": "celsius",
+      "condition": "sunny",
+      "humidity_percent": 60
+     }
+    ]
+   },
+   {
+    "output": "The weather in Sydney: sunny, 24\u00b0C, 60% humidity.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "The weather in Sydney: sunny, 24\u00b0C, 60% humidity.",
+  "stop": "answer"
+ },
+ {
+  "request": "What does my day look like on 2026-03-25?",
+  "steps": [
+   {
+    "output": "<tool_call>\n{\"name\": \"get_events\", \"arguments\": {\"date\": \"2026-03-25\"}}\n</tool_call>",
+    "calls": [
+     {
+      "name": "get_events",
+      "arguments": {
+       "date": "2026-03-25"
+      }
+     }
+    ],
+    "format_error": false,
+    "results": [
+     {
+      "date": "2026-03-25",
+      "events": [
+       {
+        "time": "15:30",
+        "title": "Parent-teacher meeting"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "output": "On Friday, 25 March you have Parent-teacher meeting at 15:30.",
+    "calls": [],
+    "format_error": false,
+    "results": []
+   }
+  ],
+  "final": "On Friday, 25 March you have Parent-teacher meeting at 15:30.",
+  "stop": "answer"
+ }
+]

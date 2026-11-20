@@ -1,0 +1,87 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper,margin=1.5cm,top=1.3cm,bottom=1.4cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage[font=small,labelfont=bf,skip=2pt]{caption}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+\titleformat{\section}{\normalsize\bfseries}{\thesection}{0.5em}{}
+\titlespacing*{\section}{0pt}{4pt}{1pt}
+\setlist{nosep,leftmargin=1.1em}
+\setlength{\parskip}{2pt}
+\setlength{\parindent}{0pt}
+\setlength{\textfloatsep}{5pt}
+\setlength{\intextsep}{4pt}
+\setlength{\tabcolsep}{4.5pt}
+\pagestyle{empty}
+\newcommand{\ci}[3]{$#1$\,{\scriptsize[$#2$,\,$#3$]}}
+\newcommand{\tc}[1]{\texttt{\small #1}}
+
+\begin{document}
+
+\begin{center}
+{\large\bfseries Teaching a 0.5B model to call tools: baseline vs.\ LoRA}\\[2pt]
+{\small EN4554 Deep Learning for Vision --- Assignment 1, Part 2}\\[1pt]
+{\small De Zoysa A.\,S.\,I. (220106D) \quad$\cdot$\quad Jayasekara S.\,P.\,R. (220257N)}
+\end{center}
+\vspace{-8pt}
+
+\section{Setup}
+\textbf{Agent:} Qwen2.5-0.5B-Instruct (494M) with its own chat template (tool schemas in the system turn; each call is a JSON name and arguments inside \tc{<tool\_call>} tags). The loop generates greedily, runs the calls, feeds the results back and stops at a plain-text answer (at most 4 turns). \textbf{Tools} (made-up data, ``today'' = Tue 10 Mar 2026): \tc{get\_weather(city, unit=celsius)} for 18 cities, \tc{get\_events(date)} for a March calendar, \tc{convert\_units(value, from\_unit, to\_unit)} for 15 units, and \tc{find\_contact(name)} for 16 fictional people. \textbf{Data} (template-generated): train 688 (110 per tool, 60 two-step contact\,$\to$\,weather, 40 two-city, 148 no-tool); test 100 (15 per tool, 8 two-step, 5 two-city, 27 no-tool). The test phrasings and date formats never occur in training (``Mar 18'' vs.\ ``18 March'', checked). \textbf{LoRA:} $r{=}16$, $\alpha{=}32$, dropout 0.05 on all attention and MLP projections (8.8M trainable, 1.75\%), AdamW, lr $2{\times}10^{-4}$ (5\% warm-up, linear decay), 2 epochs (172 steps), batch 8, fp16, seed 42; the loss covers only the assistant's tokens (its calls and answers). Training took 4.6\,min on a T4. A third condition gives the base model a \textbf{better prompt}: rules on when to call, the date format and chaining, plus one example call. \textbf{Metrics:} \emph{validity}: at least one call, and every call parses with a known tool, its required arguments and correct types; \emph{accuracy}: valid, and exactly the reference calls up to spelling (both over 73 tool requests); \emph{abstention}: no call on the 27 no-tool requests; \emph{task success}: the final answer states the facts the tools return (or the known answer), with no call when none is needed. Code: notebook \texttt{agent\_tool\_calling.ipynb}.
+
+\section{Results}
+\begin{table}[h]
+\centering\small
+\caption{Test set. Differences in points with 95\% paired bootstrap CIs; the last two rows accept an unrequested Fahrenheit unit.}
+\label{tab:main}
+\begin{tabular}{lccccc}
+\toprule
+Metric (\%) & Baseline & + prompt & LoRA & LoRA $-$ baseline & prompt $-$ baseline\\
+\midrule
+Call validity ($n$=73)   & 97.3 & 95.9 & \textbf{100.0} & \ci{+2.7}{0.0}{+6.8}    & \ci{-1.4}{-6.8}{+4.1}\\
+Call accuracy ($n$=73)   & 67.1 & 75.3 & \textbf{93.2}  & \ci{+26.0}{+16.4}{+35.6} & \ci{+8.2}{-1.4}{+17.8}\\
+Abstention ($n$=27)      & 29.6 & 29.6 & \textbf{96.3}  & \ci{+66.7}{+48.1}{+85.2} & \ci{0.0}{-11.1}{+11.1}\\
+Task success ($n$=100)   & 58.0 & 62.0 & \textbf{85.0}  & \ci{+27.0}{+15.0}{+39.0} & \ci{+4.0}{-4.0}{+12.0}\\
+\midrule
+Call accuracy, \textdegree F accepted & 84.9 & 79.5 & \textbf{93.2} & \ci{+8.2}{0.0}{+16.4} & \ci{-5.5}{-13.7}{+1.4}\\
+Task success, \textdegree F accepted  & 71.0 & 65.0 & \textbf{85.0} & \ci{+14.0}{+3.0}{+25.0} & \ci{-6.0}{-12.0}{0.0}\\
+\bottomrule
+\end{tabular}
+\end{table}
+LoRA mainly learns \emph{whether} and \emph{in what order} to call: abstention rises from 30\% to 96\%, and two-step requests go from 0/8 to 6/8 fully correct. Part of the accuracy gain is only a convention. In 18 of the 23 requests where it calls \tc{get\_weather} unasked for a unit, the base model adds \tc{unit="fahrenheit"}, although the tool's default is Celsius. If we accept that, LoRA's gain is $+8.2$ in accuracy and $+14$ [$+3$, $+25$] in task success. Two scoring rules were added after reading the outputs and applied to every model. A free day may be reported as ``I don't/couldn't find any events'' (+5 for the better prompt), and a weekday named in an answer must be the right one ($-8$ for LoRA).
+
+\section{Failure analysis}
+\begin{table}[h]
+\centering\small
+\caption{Failures per category (all read; the notebook prints $\ge$12 per model). Right: what LoRA did to each baseline failure, and new ones.}
+\label{tab:fail}
+\begin{tabular}{lccc@{\hspace{14pt}}ccc}
+\toprule
+Category & Baseline & + prompt & LoRA & Fixed & Not fixed & Introduced\\
+\midrule
+Unnecessary call (no-tool request)        & 19 & 19 & 1 & 17 & 2 & --\\
+Wrong argument                             & 20 & 11 & 2 & 16 & 4 & --\\
+No call (answered from memory)             & 2  & 3  & 0 & 2  & -- & --\\
+Missing call (stopped after one call)      & 1  & 2  & 2 & 1  & -- & --\\
+Wrong tool                                 & 1  & 2  & 1 & 0  & 1 & --\\
+Wrong direct answer (no-tool request)      & 0  & 1  & 1 & -- & -- & --\\
+Invented wrong detail (weekday)            & 0  & 0  & 8 & -- & -- & 8\\
+\midrule
+Total                                      & 43 & 38 & 15 & 36 & 7 & 8\\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{itemize}
+\item \textbf{Fixed.} \emph{Unnecessary calls}: the base model reaches for the nearest tool, e.g.\ \tc{get\_weather(city="Earth")} for ``Which planet is closest to the sun?'', \tc{find\_contact(name="Poland")} for a capital, and the nonexistent tools \tc{add} and \tc{subtract} for arithmetic. \emph{Wrong arguments}: 13 are the unrequested \textdegree F. The other 7 are two-step requests that skip \tc{find\_contact}; six of them pass the person as the city (\tc{get\_weather(city="Emma Dubois")}).
+\item \textbf{Not fixed (7).} Two two-step requests skip \tc{find\_contact} and guess London. Two ``Which is warmer, X or Y?'' requests make only the first call (the baseline made both, in \textdegree F). ``What's going on today'' goes to \tc{get\_weather}. ``Add 125 and 250'' calls an invented \tc{add\_numbers}. ``Closest planet to the sun'' is answered ``Jupiter''.
+\item \textbf{Introduced (8): invented weekdays.} For example, ``You have nothing scheduled on Saturday, 26 March'', which is a Thursday. LoRA names a weekday in 14 answers and gets 8 wrong; the base model never names one. The cause is our data: 110 of the 688 training answers contain a weekday that the generator computed and that no tool returns, so LoRA learned to write one and has to guess it. Training answers should state only facts present in the context (not re-run).
+\end{itemize}
+
+\section{Would a better prompt alone have been enough?}
+No: the better prompt fixed a convention (unrequested \textdegree F fell from 18/23 to 3/22) but not the decisions. Abstention stayed at 29.6\%, two-step requests at 0/8, and its example date (2026-03-11) leaked into 5 unrelated calls, so its task success did not differ from the baseline's ($+4$ [$-4$, $+12$]). LoRA changed exactly those decisions, though it also copies habits from its training answers.
+
+\end{document}
